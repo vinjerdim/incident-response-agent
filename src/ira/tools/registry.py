@@ -16,6 +16,7 @@ from pydantic import ValidationError
 
 from ira.config import Settings, get_settings
 from ira.fixtures import load_incident
+from ira.redact import Redactor
 from ira.tools.backends import Backend, FixtureBackend
 from ira.tools.base import ReadOnlyTool, ToolContext, ToolResult, mutating_verbs_in
 from ira.tools.deploys import GetDeployDiff, ListDeploys
@@ -44,6 +45,7 @@ class ToolRegistry:
         tools: list[ReadOnlyTool],
         settings: Settings | None = None,
         max_output_chars: int = DEFAULT_MAX_OUTPUT_CHARS,
+        redactor: Redactor | None = None,
     ):
         for t in tools:
             if not isinstance(t, ReadOnlyTool) or t.read_only is not True:
@@ -53,6 +55,7 @@ class ToolRegistry:
         self._tools = {t.name: t for t in tools}
         self._settings = settings or get_settings()
         self._max_chars = max_output_chars
+        self._redactor = redactor or Redactor()
         self._ids = itertools.count(1)
         self._id_lock = threading.Lock()
         self._pool = ThreadPoolExecutor(max_workers=4, thread_name_prefix="ira-tool")
@@ -73,23 +76,36 @@ class ToolRegistry:
         args = dict(args or {})
         start = time.perf_counter()
 
-        def result(ok: bool, content: str, **kw: Any) -> ToolResult:
+        def result(ok: bool, content: str, data: Any = None, **kw: Any) -> ToolResult:
+            # Redact BEFORE truncation and before anything leaves the registry.
+            redacted = self._redactor.redact(content)
+            counts = redacted.counts
+            data = self._redactor.redact_obj(data)  # counts reflect model-visible text only
+            content = redacted.text
+            truncated = False
+            if len(content) > self._max_chars:
+                content = content[: self._max_chars] + "\n[... output truncated ...]"
+                truncated = True
             r = ToolResult(
                 tool_call_id=call_id,
                 tool_name=name,
                 args=args,
                 ok=ok,
                 content=content,
+                data=data,
+                truncated=truncated,
+                redactions=dict(counts),
                 duration_ms=round((time.perf_counter() - start) * 1000, 2),
                 **kw,
             )
             log.info(
-                "tool_call id=%s tool=%s ok=%s ms=%s truncated=%s error=%s args=%s",
+                "tool_call id=%s tool=%s ok=%s ms=%s truncated=%s redactions=%s error=%s args=%s",
                 r.tool_call_id,
                 r.tool_name,
                 r.ok,
                 r.duration_ms,
                 r.truncated,
+                r.redactions,
                 r.error,
                 args,
             )
@@ -117,11 +133,7 @@ class ToolRegistry:
         except Exception as e:
             return result(False, f"Tool failed: {type(e).__name__}", error=type(e).__name__)
 
-        content, truncated = out.content, False
-        if len(content) > self._max_chars:
-            content = content[: self._max_chars] + "\n[... output truncated ...]"
-            truncated = True
-        return result(True, content, data=out.data, truncated=truncated)
+        return result(True, out.content, data=out.data)
 
     def close(self) -> None:
         self._pool.shutdown(wait=False, cancel_futures=True)

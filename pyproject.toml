@@ -29,6 +29,7 @@ packages = ["src/ira"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+markers = ["live: calls the real Anthropic API (needs ANTHROPIC_API_KEY)"]
 
 [tool.ruff]
 line-length = 100

@@ -144,6 +144,19 @@ class SuggestedAction(_Frozen):
     requires_approval: Literal[True] = True
 
 
+class ToolCallRecord(_Frozen):
+    """One tool call made during an investigation. `output` is the redacted text the model saw."""
+
+    tool_call_id: str = NonEmptyStr
+    tool_name: str = NonEmptyStr
+    args: dict[str, Any] = Field(default_factory=dict)
+    ok: bool
+    output: str
+    truncated: bool = False
+    redactions: dict[str, int] = Field(default_factory=dict)
+    duration_ms: float = Field(default=0.0, ge=0)
+
+
 class Investigation(_Model):
     id: str = Field(default_factory=_new_id)
     alert: Alert
@@ -151,8 +164,13 @@ class Investigation(_Model):
     hypotheses: list[Hypothesis] = Field(default_factory=list)
     not_checked: list[str] = Field(default_factory=list)
     suggested_actions: list[SuggestedAction] = Field(default_factory=list)
+    tool_calls: list[ToolCallRecord] = Field(default_factory=list)
+    rejected_claims: list[str] = Field(default_factory=list)
     steps_used: int = Field(default=0, ge=0)
+    input_tokens: int = Field(default=0, ge=0)
+    output_tokens: int = Field(default=0, ge=0)
     tokens_used: int = Field(default=0, ge=0)
+    error: str | None = None
     started_at: datetime = Field(default_factory=_utcnow)
     finished_at: datetime | None = None
 

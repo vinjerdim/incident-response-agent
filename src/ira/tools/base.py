@@ -40,6 +40,7 @@ class ToolResult(BaseModel):
     content: str
     data: Any = None
     truncated: bool = False
+    redactions: dict[str, int] = Field(default_factory=dict)
     duration_ms: float = 0.0
     error: str | None = None
 

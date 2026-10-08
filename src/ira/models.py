@@ -189,6 +189,13 @@ class Investigation(_Model):
         return self
 
 
+class KnownFact(_Frozen):
+    """An observation stated as fact. Must cite evidence: tool call ids, or "alert"."""
+
+    statement: str = NonEmptyStr
+    evidence_ids: list[str] = Field(min_length=1)
+
+
 class StatusDraft(_Frozen):
     """Stakeholder update. `known_facts` must be backed by evidence; guesses go in
     `under_investigation`."""
@@ -197,10 +204,18 @@ class StatusDraft(_Frozen):
     investigation_id: str = NonEmptyStr
     audience: str = "stakeholders"
     summary: str = NonEmptyStr
-    known_facts: list[str] = Field(default_factory=list)
+    known_facts: list[KnownFact] = Field(default_factory=list)
     under_investigation: list[str] = Field(default_factory=list)
     next_update_at: datetime | None = None
+    generated_by: Literal["llm", "template"] = "template"
     created_at: datetime = Field(default_factory=_utcnow)
+
+
+class ApprovalStatus(StrEnum):
+    PENDING = "pending"
+    APPROVED = "approved"
+    REJECTED = "rejected"
+    EXECUTED = "executed"
 
 
 class AuditEvent(_Frozen):

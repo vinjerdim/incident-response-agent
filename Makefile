@@ -20,7 +20,8 @@ eval:
 	@echo "make eval: not implemented until Phase 6" && exit 1
 
 demo:
-	@echo "make demo INCIDENT=$(INCIDENT): not implemented until Phase 4" && exit 1
+	@test -n "$(INCIDENT)" || (echo "usage: make demo INCIDENT=<fixture_name>" && exit 1)
+	uv run ira investigate $(INCIDENT)
 
 fixtures:
 	uv run python scripts/build_fixtures.py

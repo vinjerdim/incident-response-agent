@@ -71,7 +71,7 @@ REMIND_PROMPT = (
     "to report findings."
 )
 
-_TAG_NAMES = r"tool_output|alert_data|system|instructions?"
+_TAG_NAMES = r"tool_output|alert_data|investigation_data|system|instructions?"
 _TAG_RE = re.compile(rf"<(\s*/?\s*)({_TAG_NAMES})\b", re.I)
 
 

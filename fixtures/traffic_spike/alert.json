@@ -1,0 +1,19 @@
+{
+  "id": "alert-traffic_spike",
+  "source": "alertmanager",
+  "service": "catalog-api",
+  "title": "catalog-api p99 latency above 1s",
+  "description": "p99_latency_ms > 1000 for 5m",
+  "severity": "high",
+  "fired_at": "2026-09-21T19:00:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "catalog",
+    "alertname": "CatalogLatencyHigh"
+  },
+  "dedupe_key": "CatalogLatencyHigh/catalog-api",
+  "raw": {
+    "alertname": "CatalogLatencyHigh",
+    "status": "firing"
+  }
+}

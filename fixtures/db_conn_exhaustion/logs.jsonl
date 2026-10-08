@@ -1,0 +1,184 @@
+{"ts":"2026-09-15T01:17:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-b","trace_id":"0e60df92f8231d99"}
+{"ts":"2026-09-15T01:17:26Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 72ms","host":"orders-5d8-a","trace_id":"ad3c3ba1322b7d97"}
+{"ts":"2026-09-15T01:18:54Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 68ms","host":"orders-5d8-b","trace_id":"e62db17f093c6d79"}
+{"ts":"2026-09-15T01:19:12Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 53ms","host":"orders-5d8-a","trace_id":"a137a5d27e8837d2"}
+{"ts":"2026-09-15T01:19:49Z","service":"orders-service","level":"INFO","message":"connecting to postgres://orders_app:S3cr3tPassw0rd!@orders-db.internal:5432/orders","host":"orders-5d8-a","trace_id":"829c0fbb01718b03"}
+{"ts":"2026-09-15T01:20:12Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 78ms","host":"orders-5d8-b","trace_id":"79e1575a53a7cfa0"}
+{"ts":"2026-09-15T01:21:29Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 66ms","host":"orders-5d8-a","trace_id":"3fa2617085b86a9e"}
+{"ts":"2026-09-15T01:22:30Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 69ms","host":"orders-5d8-b","trace_id":"f7cbf929455a4fb4"}
+{"ts":"2026-09-15T01:23:55Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 34ms","host":"orders-5d8-a","trace_id":"6145b70109e77184"}
+{"ts":"2026-09-15T01:24:11Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 13ms","host":"orders-5d8-a","trace_id":"33a0aee0ea3c6e08"}
+{"ts":"2026-09-15T01:25:08Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 57ms","host":"orders-5d8-a","trace_id":"ca7e41fab072e779"}
+{"ts":"2026-09-15T01:26:27Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 37ms","host":"orders-5d8-a","trace_id":"e525299c4ee33fee"}
+{"ts":"2026-09-15T01:27:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-b","trace_id":"c4125ba9ff601b53"}
+{"ts":"2026-09-15T01:27:12Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 56ms","host":"orders-5d8-b","trace_id":"561ff1fd4ac429f6"}
+{"ts":"2026-09-15T01:28:49Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 56ms","host":"orders-5d8-a","trace_id":"31d108b89cff37ff"}
+{"ts":"2026-09-15T01:29:33Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 62ms","host":"orders-5d8-b","trace_id":"68cc270c597596c4"}
+{"ts":"2026-09-15T01:30:35Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 42ms","host":"orders-5d8-b","trace_id":"5859c29ae2f5b940"}
+{"ts":"2026-09-15T01:31:37Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 37ms","host":"orders-5d8-b","trace_id":"14b66d7503dfac36"}
+{"ts":"2026-09-15T01:32:24Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 76ms","host":"orders-5d8-b","trace_id":"49b4ecef1ae3a33e"}
+{"ts":"2026-09-15T01:33:16Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 33ms","host":"orders-5d8-b","trace_id":"b601197ef5558fc8"}
+{"ts":"2026-09-15T01:34:35Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 28ms","host":"orders-5d8-a","trace_id":"8e9b7b72aa03fb01"}
+{"ts":"2026-09-15T01:35:28Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 29ms","host":"orders-5d8-a","trace_id":"03f952dae09fb804"}
+{"ts":"2026-09-15T01:36:46Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 56ms","host":"orders-5d8-b","trace_id":"bf57cd23774275d5"}
+{"ts":"2026-09-15T01:37:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-a","trace_id":"03487ec1a3165435"}
+{"ts":"2026-09-15T01:37:01Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 29ms","host":"orders-5d8-b","trace_id":"301026c219eb5de3"}
+{"ts":"2026-09-15T01:37:31Z","service":"orders-service","level":"DEBUG","message":"retrying db auth with password=S3cr3tPassw0rd! for user orders_app","host":"orders-5d8-b","trace_id":"79581e5a0e18e643"}
+{"ts":"2026-09-15T01:38:31Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 23ms","host":"orders-5d8-b","trace_id":"5df85668019c2be1"}
+{"ts":"2026-09-15T01:39:43Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 78ms","host":"orders-5d8-a","trace_id":"6985dda234bf281a"}
+{"ts":"2026-09-15T01:40:59Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 16ms","host":"orders-5d8-b","trace_id":"6d6e7020c18e4bb5"}
+{"ts":"2026-09-15T01:41:50Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 43ms","host":"orders-5d8-a","trace_id":"aa8111f4d9952818"}
+{"ts":"2026-09-15T01:42:11Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 89ms","host":"orders-5d8-a","trace_id":"743261d239890841"}
+{"ts":"2026-09-15T01:43:05Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 41ms","host":"orders-5d8-a","trace_id":"0ad704b0050912c5"}
+{"ts":"2026-09-15T01:44:41Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 19ms","host":"orders-5d8-b","trace_id":"a0aa23bc8192cb21"}
+{"ts":"2026-09-15T01:45:32Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 88ms","host":"orders-5d8-b","trace_id":"dfae4adee5d4b17c"}
+{"ts":"2026-09-15T01:46:54Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 84ms","host":"orders-5d8-b","trace_id":"5f145fcef0bce5ac"}
+{"ts":"2026-09-15T01:47:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-b","trace_id":"626f1c547ef4accd"}
+{"ts":"2026-09-15T01:47:15Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 31ms","host":"orders-5d8-a","trace_id":"9a3f807a199f0125"}
+{"ts":"2026-09-15T01:48:07Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 83ms","host":"orders-5d8-b","trace_id":"f629bca1d24a6d0b"}
+{"ts":"2026-09-15T01:49:42Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 50ms","host":"orders-5d8-b","trace_id":"d73cd9928c623274"}
+{"ts":"2026-09-15T01:50:44Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 90ms","host":"orders-5d8-b","trace_id":"3875ccc7ce80b8ad"}
+{"ts":"2026-09-15T01:51:26Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 89ms","host":"orders-5d8-b","trace_id":"0d54061326025603"}
+{"ts":"2026-09-15T01:52:00Z","service":"orders-service","level":"INFO","message":"cron: reconcile-ledger started (batch_size=50000, workers=40)","host":"batch-01","trace_id":"68e99d4e55255a19"}
+{"ts":"2026-09-15T01:52:12Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 82ms","host":"orders-5d8-b","trace_id":"57756c7957030dbb"}
+{"ts":"2026-09-15T01:53:13Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 86ms","host":"orders-5d8-a","trace_id":"ef18e03715201403"}
+{"ts":"2026-09-15T01:53:50Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 2100 rows, 40 open transactions","host":"batch-01","trace_id":"0d4585862b33b50d"}
+{"ts":"2026-09-15T01:54:40Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 44ms","host":"orders-5d8-a","trace_id":"32bbfda5d013800e"}
+{"ts":"2026-09-15T01:55:10Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 37ms","host":"orders-5d8-b","trace_id":"b38184a105414c4f"}
+{"ts":"2026-09-15T01:56:21Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 8400 rows, 40 open transactions","host":"batch-01","trace_id":"cc61f56d6401e5f2"}
+{"ts":"2026-09-15T01:56:51Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 55ms","host":"orders-5d8-b","trace_id":"33ae258d56533e53"}
+{"ts":"2026-09-15T01:57:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-a","trace_id":"dd1de8db4d0c0511"}
+{"ts":"2026-09-15T01:57:46Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 30ms","host":"orders-5d8-b","trace_id":"057cfdf003ac4ad9"}
+{"ts":"2026-09-15T01:58:20Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 63ms","host":"orders-5d8-a","trace_id":"13dec25995923772"}
+{"ts":"2026-09-15T01:59:35Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 14700 rows, 40 open transactions","host":"batch-01","trace_id":"f5ccf237a1d9eef3"}
+{"ts":"2026-09-15T01:59:42Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 18ms","host":"orders-5d8-b","trace_id":"f4c95a525ddf8c18"}
+{"ts":"2026-09-15T02:00:18Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 28ms","host":"orders-5d8-b","trace_id":"6d2d79c18db0f1f4"}
+{"ts":"2026-09-15T02:01:44Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 34ms","host":"orders-5d8-a","trace_id":"cd51317642bd47ff"}
+{"ts":"2026-09-15T02:02:15Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 21000 rows, 40 open transactions","host":"batch-01","trace_id":"974b0ef9eb8d2e58"}
+{"ts":"2026-09-15T02:02:26Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 39ms","host":"orders-5d8-b","trace_id":"eba3aa68739a0b8e"}
+{"ts":"2026-09-15T02:03:05Z","service":"orders-service","level":"WARN","message":"db pool usage high: 44/50 connections in use","host":"orders-5d8-b","trace_id":"8d492dc8d942ea9a"}
+{"ts":"2026-09-15T02:03:18Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 42ms","host":"orders-5d8-a","trace_id":"058ba3b0d9b1cbe5"}
+{"ts":"2026-09-15T02:04:24Z","service":"orders-service","level":"WARN","message":"db pool usage high: 46/50 connections in use","host":"orders-5d8-b","trace_id":"0997f6addb6c2e79"}
+{"ts":"2026-09-15T02:04:55Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 78ms","host":"orders-5d8-b","trace_id":"37390ef2b5c61972"}
+{"ts":"2026-09-15T02:05:01Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 81ms","host":"orders-5d8-b","trace_id":"bc39581c5633ddaf"}
+{"ts":"2026-09-15T02:05:22Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 27300 rows, 40 open transactions","host":"batch-01","trace_id":"4f6010d0fec0b1df"}
+{"ts":"2026-09-15T02:05:28Z","service":"orders-service","level":"WARN","message":"db pool usage high: 48/50 connections in use","host":"orders-5d8-b","trace_id":"3f3411a0bcfb461c"}
+{"ts":"2026-09-15T02:06:33Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 20ms","host":"orders-5d8-a","trace_id":"4f5002c55521a72b"}
+{"ts":"2026-09-15T02:06:49Z","service":"orders-service","level":"WARN","message":"db pool usage high: 50/50 connections in use","host":"orders-5d8-a","trace_id":"ad225cbd5b854429"}
+{"ts":"2026-09-15T02:07:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-b","trace_id":"c675f73197c30f94"}
+{"ts":"2026-09-15T02:07:01Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"9bbbf9100886a1a3"}
+{"ts":"2026-09-15T02:07:19Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"4f5b93164cac41e6"}
+{"ts":"2026-09-15T02:07:39Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 58ms","host":"orders-5d8-b","trace_id":"cb5ed81a2abf3e72"}
+{"ts":"2026-09-15T02:07:52Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"2588899e9fec2233"}
+{"ts":"2026-09-15T02:08:03Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"e94569051e1b1271"}
+{"ts":"2026-09-15T02:08:10Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 33600 rows, 40 open transactions","host":"batch-01","trace_id":"baa3ca5f5f19c221"}
+{"ts":"2026-09-15T02:08:27Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 58ms","host":"orders-5d8-b","trace_id":"45b193989727bfb1"}
+{"ts":"2026-09-15T02:08:34Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"781192bf8388b8cf"}
+{"ts":"2026-09-15T02:08:38Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"9dfcfa766e630334"}
+{"ts":"2026-09-15T02:09:08Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"5cd68a7a2bfdc058"}
+{"ts":"2026-09-15T02:09:12Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 80ms","host":"orders-5d8-a","trace_id":"1679bd61bfaf60e1"}
+{"ts":"2026-09-15T02:09:24Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"518070ed62bc0d3a"}
+{"ts":"2026-09-15T02:09:37Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"d8856605dc799000"}
+{"ts":"2026-09-15T02:10:11Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"040ec7a2eace0cc4"}
+{"ts":"2026-09-15T02:10:21Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"b81cb4726eea3c07"}
+{"ts":"2026-09-15T02:10:37Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"91406b7aa1d919bf"}
+{"ts":"2026-09-15T02:10:45Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 40ms","host":"orders-5d8-a","trace_id":"edb7ceb8f7e2b983"}
+{"ts":"2026-09-15T02:11:01Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 39900 rows, 40 open transactions","host":"batch-01","trace_id":"e67e15dc2256cd09"}
+{"ts":"2026-09-15T02:11:31Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"0f10f4b70c8d6520"}
+{"ts":"2026-09-15T02:11:44Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 34ms","host":"orders-5d8-a","trace_id":"3f704033bf0ad079"}
+{"ts":"2026-09-15T02:11:49Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"df8f5d8359259378"}
+{"ts":"2026-09-15T02:11:50Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"9715a4734abea65a"}
+{"ts":"2026-09-15T02:12:16Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 86ms","host":"orders-5d8-b","trace_id":"012627243deb92c4"}
+{"ts":"2026-09-15T02:12:25Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"aee1ee2bc399a2a2"}
+{"ts":"2026-09-15T02:12:25Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"293ec3dd2b52e190"}
+{"ts":"2026-09-15T02:12:36Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"81b07fcd3acc731a"}
+{"ts":"2026-09-15T02:12:52Z","service":"orders-service","level":"INFO","message":"order created for customer liam.ng@example.org","host":"orders-5d8-a","trace_id":"192fc6a1f70772a9"}
+{"ts":"2026-09-15T02:13:31Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 23ms","host":"orders-5d8-a","trace_id":"0d45f9f3cc90848b"}
+{"ts":"2026-09-15T02:13:36Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"fde8a0606df7661d"}
+{"ts":"2026-09-15T02:13:55Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"6c773faf87428240"}
+{"ts":"2026-09-15T02:13:58Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"9d48f9fcb5c5335b"}
+{"ts":"2026-09-15T02:14:16Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 46200 rows, 40 open transactions","host":"batch-01","trace_id":"1f12fc788de65c88"}
+{"ts":"2026-09-15T02:14:24Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 52ms","host":"orders-5d8-b","trace_id":"499e24c684c1457e"}
+{"ts":"2026-09-15T02:14:30Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"05937615d941d017"}
+{"ts":"2026-09-15T02:14:31Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"caf62e9637dc191d"}
+{"ts":"2026-09-15T02:14:47Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"cda5b08342014e5f"}
+{"ts":"2026-09-15T02:15:19Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"bfc73475edebc0e1"}
+{"ts":"2026-09-15T02:15:25Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"183c6d3aab4babf9"}
+{"ts":"2026-09-15T02:15:32Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"e2b450226373e1f4"}
+{"ts":"2026-09-15T02:15:50Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 45ms","host":"orders-5d8-a","trace_id":"5d75f6f6ba8b6463"}
+{"ts":"2026-09-15T02:16:03Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 42ms","host":"orders-5d8-a","trace_id":"8bb7084057a99c82"}
+{"ts":"2026-09-15T02:16:10Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"bf5970ad7da0c996"}
+{"ts":"2026-09-15T02:16:32Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"2fc118b1fbef3134"}
+{"ts":"2026-09-15T02:16:38Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"90956ed89b973ad2"}
+{"ts":"2026-09-15T02:17:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-a","trace_id":"a3f5156c5c987409"}
+{"ts":"2026-09-15T02:17:06Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"f5bf07480ae37c9d"}
+{"ts":"2026-09-15T02:17:12Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 78ms","host":"orders-5d8-b","trace_id":"27af57a6d6660529"}
+{"ts":"2026-09-15T02:17:13Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 52500 rows, 40 open transactions","host":"batch-01","trace_id":"5b919e5b947fa569"}
+{"ts":"2026-09-15T02:17:15Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"8f8d66554c9d237e"}
+{"ts":"2026-09-15T02:17:28Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"7c5434cca7ea5bed"}
+{"ts":"2026-09-15T02:18:01Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 71ms","host":"orders-5d8-a","trace_id":"1e42d50e03afb0a1"}
+{"ts":"2026-09-15T02:18:12Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"34c38e3f34328048"}
+{"ts":"2026-09-15T02:18:38Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"52d5484ca76bd95b"}
+{"ts":"2026-09-15T02:18:45Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"9a50bf7f448aac49"}
+{"ts":"2026-09-15T02:19:23Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"6eced8abf5a92605"}
+{"ts":"2026-09-15T02:19:26Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"12e32bc6a714c7d0"}
+{"ts":"2026-09-15T02:19:39Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"64f3035e9a95e4d3"}
+{"ts":"2026-09-15T02:19:54Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 90ms","host":"orders-5d8-a","trace_id":"6f380657e1bebf30"}
+{"ts":"2026-09-15T02:20:04Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"f84c85225d14f738"}
+{"ts":"2026-09-15T02:20:38Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 82ms","host":"orders-5d8-b","trace_id":"5d8c59a6a9d242e9"}
+{"ts":"2026-09-15T02:20:41Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 58800 rows, 40 open transactions","host":"batch-01","trace_id":"b6471e9efa6275fb"}
+{"ts":"2026-09-15T02:20:49Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"61ade0a7c731385e"}
+{"ts":"2026-09-15T02:20:55Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"5bd874ed1d82cc8f"}
+{"ts":"2026-09-15T02:21:17Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 74ms","host":"orders-5d8-a","trace_id":"54ef0c1a07cda9b2"}
+{"ts":"2026-09-15T02:21:32Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"aa352588289db1ac"}
+{"ts":"2026-09-15T02:21:51Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"937236489bc0ea94"}
+{"ts":"2026-09-15T02:21:56Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"2fe1bed24f113906"}
+{"ts":"2026-09-15T02:22:13Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 85ms","host":"orders-5d8-b","trace_id":"d66f79ed7d0e8152"}
+{"ts":"2026-09-15T02:22:14Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"c652ffe8e0114bb6"}
+{"ts":"2026-09-15T02:22:32Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"0424b9fab446eb3a"}
+{"ts":"2026-09-15T02:22:56Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"5113ed5ced4a5d31"}
+{"ts":"2026-09-15T02:23:03Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 68ms","host":"orders-5d8-b","trace_id":"7a01af2cfcfecd91"}
+{"ts":"2026-09-15T02:23:12Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"4f46828a04308ddb"}
+{"ts":"2026-09-15T02:23:26Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"dc998a44b84a5536"}
+{"ts":"2026-09-15T02:23:37Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 65100 rows, 40 open transactions","host":"batch-01","trace_id":"99eec0cbec45e3bd"}
+{"ts":"2026-09-15T02:23:48Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"7f345d158ba4e92d"}
+{"ts":"2026-09-15T02:24:10Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"57ad781d455f1327"}
+{"ts":"2026-09-15T02:24:24Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"96576aa39d916b7d"}
+{"ts":"2026-09-15T02:24:40Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 31ms","host":"orders-5d8-a","trace_id":"fe1bf46ce047c22b"}
+{"ts":"2026-09-15T02:24:51Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"c3ca90440c70bdaa"}
+{"ts":"2026-09-15T02:25:13Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"c33c71b2528076cc"}
+{"ts":"2026-09-15T02:25:19Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"fd20d53ba9a5e78b"}
+{"ts":"2026-09-15T02:25:49Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 61ms","host":"orders-5d8-b","trace_id":"86adb4a721e8096c"}
+{"ts":"2026-09-15T02:25:54Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"ba7175829e9c0964"}
+{"ts":"2026-09-15T02:26:04Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"02652fd09cd0b1dc"}
+{"ts":"2026-09-15T02:26:12Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"1e5b7815080b5390"}
+{"ts":"2026-09-15T02:26:25Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 71400 rows, 40 open transactions","host":"batch-01","trace_id":"19f5be2730ac5b4c"}
+{"ts":"2026-09-15T02:26:37Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"cbdfbcdb4520cfb7"}
+{"ts":"2026-09-15T02:26:38Z","service":"orders-service","level":"INFO","message":"POST /api/orders 200 17ms","host":"orders-5d8-a","trace_id":"6b01d1aa470da4e7"}
+{"ts":"2026-09-15T02:27:00Z","service":"orders-service","level":"DEBUG","message":"health check ok","host":"orders-5d8-a","trace_id":"b9a382d8856d1eb9"}
+{"ts":"2026-09-15T02:27:06Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"b992e556c606fc6a"}
+{"ts":"2026-09-15T02:27:12Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"e44058b03f4cded4"}
+{"ts":"2026-09-15T02:27:27Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"e31b0a44bbcb6688"}
+{"ts":"2026-09-15T02:27:58Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 20ms","host":"orders-5d8-b","trace_id":"2a2a08622d31af3b"}
+{"ts":"2026-09-15T02:28:04Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 25ms","host":"orders-5d8-b","trace_id":"89203554dcb3443c"}
+{"ts":"2026-09-15T02:28:14Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"71b62b23c9328af3"}
+{"ts":"2026-09-15T02:28:30Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"d04ace4d07eb09f3"}
+{"ts":"2026-09-15T02:28:46Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"8cea38e3eb6683c4"}
+{"ts":"2026-09-15T02:29:04Z","service":"orders-service","level":"INFO","message":"GET /api/orders 200 21ms","host":"orders-5d8-b","trace_id":"6181d177a5d3cf4d"}
+{"ts":"2026-09-15T02:29:14Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"1e3ad317406b539e"}
+{"ts":"2026-09-15T02:29:16Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 77700 rows, 40 open transactions","host":"batch-01","trace_id":"224b1c8eae90b2e6"}
+{"ts":"2026-09-15T02:29:22Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"312dbdb1333177f9"}
+{"ts":"2026-09-15T02:29:55Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"c6d93c87970453b2"}
+{"ts":"2026-09-15T02:30:23Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"66288b8481360f28"}
+{"ts":"2026-09-15T02:30:44Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"e26e9f4c140a4ff1"}
+{"ts":"2026-09-15T02:30:49Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"25f6fde66069131f"}
+{"ts":"2026-09-15T02:30:57Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 49ms","host":"orders-5d8-b","trace_id":"352154fe83d76e99"}
+{"ts":"2026-09-15T02:31:26Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 20ms","host":"orders-5d8-b","trace_id":"0450d503018b7965"}
+{"ts":"2026-09-15T02:31:31Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-b","trace_id":"102579a55ca1f5a9"}
+{"ts":"2026-09-15T02:31:33Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"8ddc29f67b92f2db"}
+{"ts":"2026-09-15T02:31:49Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"c81afdc40f718ea7"}
+{"ts":"2026-09-15T02:32:01Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-a","trace_id":"80377e6a0d5d95df"}
+{"ts":"2026-09-15T02:32:15Z","service":"orders-service","level":"INFO","message":"GET /api/orders/{id} 200 64ms","host":"orders-5d8-b","trace_id":"14efdd3d3c994fbd"}
+{"ts":"2026-09-15T02:32:19Z","service":"orders-service","level":"ERROR","message":"POST /api/orders 503 30012ms: could not obtain DB connection","host":"orders-5d8-a","trace_id":"cec4a22df60e05ca"}
+{"ts":"2026-09-15T02:32:23Z","service":"orders-service","level":"ERROR","message":"HikariPool-1 - Connection is not available, request timed out after 30000ms: pool exhausted (50/50 in use, 63 pending)","host":"orders-5d8-b","trace_id":"1b8886a7bebd133f"}
+{"ts":"2026-09-15T02:32:51Z","service":"orders-service","level":"INFO","message":"reconcile-ledger progress: 84000 rows, 40 open transactions","host":"batch-01","trace_id":"ef3453befb82a5f8"}

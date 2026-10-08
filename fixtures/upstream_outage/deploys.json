@@ -1,0 +1,12 @@
+[
+  {
+    "id": "d-918",
+    "service": "shipping-quotes",
+    "kind": "code",
+    "version": "v4.1.0",
+    "author": "dev-hana",
+    "ts": "2026-09-18T10:40:00Z",
+    "summary": "Add carrier label to quote metrics",
+    "diff": "--- a/quotes/metrics.py\n+++ b/quotes/metrics.py\n-QUOTES.inc()\n+QUOTES.labels(carrier=c).inc()\n"
+  }
+]

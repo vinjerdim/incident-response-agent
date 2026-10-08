@@ -1,0 +1,22 @@
+[
+  {
+    "id": "d-2201",
+    "service": "recommendations",
+    "kind": "code",
+    "version": "v3.7.4",
+    "author": "dev-ines",
+    "ts": "2026-09-10T09:05:00Z",
+    "summary": "Tweak ranking weights",
+    "diff": "--- a/recs/rank.py\n+++ b/recs/rank.py\n-W_RECENCY = 0.3\n+W_RECENCY = 0.35\n"
+  },
+  {
+    "id": "d-2207",
+    "service": "recommendations",
+    "kind": "code",
+    "version": "v3.8.0",
+    "author": "dev-arun",
+    "ts": "2026-09-13T09:05:00Z",
+    "summary": "Add in-process user embedding cache",
+    "diff": "--- a/recs/embeddings.py\n+++ b/recs/embeddings.py\n+_EMBED_CACHE: dict[str, list[float]] = {}\n+\n def get_embedding(user_id: str) -> list[float]:\n-    return model.embed(user_id)\n+    if user_id not in _EMBED_CACHE:\n+        _EMBED_CACHE[user_id] = model.embed(user_id)  # TODO: add eviction\n+    return _EMBED_CACHE[user_id]\n"
+  }
+]

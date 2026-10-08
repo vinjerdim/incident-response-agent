@@ -1,0 +1,241 @@
+{"ts":"2026-09-18T15:40:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-b","trace_id":"88a38bce4b3c26b4"}
+{"ts":"2026-09-18T15:40:27Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 193ms","host":"shipq-2b7-a","trace_id":"9a3333cf2decab9a"}
+{"ts":"2026-09-18T15:40:54Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 44ms","host":"shipq-2b7-b","trace_id":"5688d53247ceefc7"}
+{"ts":"2026-09-18T15:41:26Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 19ms","host":"shipq-2b7-b","trace_id":"891e15d797f2fa9c"}
+{"ts":"2026-09-18T15:41:32Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 223ms","host":"shipq-2b7-a","trace_id":"1f119e0aeb956c25"}
+{"ts":"2026-09-18T15:42:35Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 54ms","host":"shipq-2b7-b","trace_id":"1f1cf1ac3fcf3c04"}
+{"ts":"2026-09-18T15:42:44Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 200ms","host":"shipq-2b7-a","trace_id":"0103f2e0eed26b19"}
+{"ts":"2026-09-18T15:43:16Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 260ms","host":"shipq-2b7-b","trace_id":"0cf55ff0d39267ea"}
+{"ts":"2026-09-18T15:43:17Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 49ms","host":"shipq-2b7-a","trace_id":"1f3d1c053688c39b"}
+{"ts":"2026-09-18T15:44:40Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 290ms","host":"shipq-2b7-a","trace_id":"349c48a6b7141539"}
+{"ts":"2026-09-18T15:44:49Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 79ms","host":"shipq-2b7-b","trace_id":"b90c755efdc4e567"}
+{"ts":"2026-09-18T15:45:13Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 183ms","host":"shipq-2b7-b","trace_id":"cd9b39d5aa29f144"}
+{"ts":"2026-09-18T15:45:19Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 60ms","host":"shipq-2b7-b","trace_id":"dc2f5f73d2828914"}
+{"ts":"2026-09-18T15:46:23Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 43ms","host":"shipq-2b7-a","trace_id":"127a390f8daca878"}
+{"ts":"2026-09-18T15:46:27Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 181ms","host":"shipq-2b7-a","trace_id":"0abeb928ec2a3f4c"}
+{"ts":"2026-09-18T15:47:34Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 276ms","host":"shipq-2b7-b","trace_id":"54a481d0d9788715"}
+{"ts":"2026-09-18T15:47:55Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 86ms","host":"shipq-2b7-b","trace_id":"fbbaf21e670ae9d6"}
+{"ts":"2026-09-18T15:48:00Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 47ms","host":"shipq-2b7-a","trace_id":"9c110f412bb28476"}
+{"ts":"2026-09-18T15:48:22Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 267ms","host":"shipq-2b7-a","trace_id":"1a5d3af24d94abd6"}
+{"ts":"2026-09-18T15:49:38Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 294ms","host":"shipq-2b7-b","trace_id":"718046a1044ffeda"}
+{"ts":"2026-09-18T15:49:57Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 65ms","host":"shipq-2b7-a","trace_id":"de99e35385bc9fd5"}
+{"ts":"2026-09-18T15:50:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-a","trace_id":"729b1eee84510860"}
+{"ts":"2026-09-18T15:50:13Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 309ms","host":"shipq-2b7-a","trace_id":"34e41c7d7a2d13f0"}
+{"ts":"2026-09-18T15:50:40Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 48ms","host":"shipq-2b7-a","trace_id":"6497f9c354513d9f"}
+{"ts":"2026-09-18T15:51:06Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 216ms","host":"shipq-2b7-a","trace_id":"8286141f82dcb926"}
+{"ts":"2026-09-18T15:51:21Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 61ms","host":"shipq-2b7-b","trace_id":"7be9bdd1fb0ad039"}
+{"ts":"2026-09-18T15:52:34Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 83ms","host":"shipq-2b7-a","trace_id":"7fa44276a61fb526"}
+{"ts":"2026-09-18T15:52:43Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 238ms","host":"shipq-2b7-b","trace_id":"f7c48880addf65c3"}
+{"ts":"2026-09-18T15:53:33Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 45ms","host":"shipq-2b7-b","trace_id":"ce717df4015017ba"}
+{"ts":"2026-09-18T15:53:39Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 303ms","host":"shipq-2b7-b","trace_id":"2b489b2967e14fd7"}
+{"ts":"2026-09-18T15:54:07Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 307ms","host":"shipq-2b7-a","trace_id":"0ee2599bc2c3a578"}
+{"ts":"2026-09-18T15:54:17Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 54ms","host":"shipq-2b7-a","trace_id":"181a378546c5accd"}
+{"ts":"2026-09-18T15:55:29Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 21ms","host":"shipq-2b7-b","trace_id":"1f1fb3963531217c"}
+{"ts":"2026-09-18T15:55:33Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 206ms","host":"shipq-2b7-a","trace_id":"1e6dcfd781d2b552"}
+{"ts":"2026-09-18T15:56:22Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 259ms","host":"shipq-2b7-a","trace_id":"d427f1a6792f65ca"}
+{"ts":"2026-09-18T15:56:44Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 34ms","host":"shipq-2b7-a","trace_id":"ea11de430b312c16"}
+{"ts":"2026-09-18T15:57:08Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 225ms","host":"shipq-2b7-a","trace_id":"1a9815f81bd11d65"}
+{"ts":"2026-09-18T15:57:49Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 19ms","host":"shipq-2b7-b","trace_id":"002037d954b20cc3"}
+{"ts":"2026-09-18T15:58:08Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 81ms","host":"shipq-2b7-a","trace_id":"e38e97d4715ad05d"}
+{"ts":"2026-09-18T15:58:23Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 278ms","host":"shipq-2b7-b","trace_id":"e6f249b2a0a1aff4"}
+{"ts":"2026-09-18T15:59:03Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 181ms","host":"shipq-2b7-a","trace_id":"61efd6987f88b150"}
+{"ts":"2026-09-18T15:59:32Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 72ms","host":"shipq-2b7-a","trace_id":"8aa8f7a0a4288ad5"}
+{"ts":"2026-09-18T16:00:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-a","trace_id":"2fa97523a0b69dec"}
+{"ts":"2026-09-18T16:00:11Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 195ms","host":"shipq-2b7-a","trace_id":"a4566ce6828f79ef"}
+{"ts":"2026-09-18T16:00:46Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 20ms","host":"shipq-2b7-b","trace_id":"e73168793096e7c5"}
+{"ts":"2026-09-18T16:01:06Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 225ms","host":"shipq-2b7-b","trace_id":"45ee9f0a68fc1b12"}
+{"ts":"2026-09-18T16:01:34Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 61ms","host":"shipq-2b7-b","trace_id":"9ea0f2bb25acb82e"}
+{"ts":"2026-09-18T16:02:11Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 19ms","host":"shipq-2b7-b","trace_id":"2e0d062677832f79"}
+{"ts":"2026-09-18T16:02:21Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 234ms","host":"shipq-2b7-a","trace_id":"b3174995b6e9bfe5"}
+{"ts":"2026-09-18T16:03:27Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 190ms","host":"shipq-2b7-a","trace_id":"989d051dbdb0aa3d"}
+{"ts":"2026-09-18T16:03:52Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 17ms","host":"shipq-2b7-b","trace_id":"02bcd9e7ca7710c4"}
+{"ts":"2026-09-18T16:04:27Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 256ms","host":"shipq-2b7-a","trace_id":"ea96b343a18440e0"}
+{"ts":"2026-09-18T16:04:33Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 77ms","host":"shipq-2b7-b","trace_id":"e13e4f2c4fa5dc23"}
+{"ts":"2026-09-18T16:05:25Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 57ms","host":"shipq-2b7-a","trace_id":"bc285fc8fc8661c9"}
+{"ts":"2026-09-18T16:05:44Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 191ms","host":"shipq-2b7-a","trace_id":"fff0c5df39b79f40"}
+{"ts":"2026-09-18T16:06:12Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 193ms","host":"shipq-2b7-a","trace_id":"80fe19af74a91df6"}
+{"ts":"2026-09-18T16:06:44Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 32ms","host":"shipq-2b7-b","trace_id":"dc39ed0bebacc3c9"}
+{"ts":"2026-09-18T16:07:29Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 186ms","host":"shipq-2b7-a","trace_id":"451dc0dd245d60e9"}
+{"ts":"2026-09-18T16:07:49Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 75ms","host":"shipq-2b7-b","trace_id":"4db36ad425600aeb"}
+{"ts":"2026-09-18T16:08:02Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 248ms","host":"shipq-2b7-a","trace_id":"5fa977105a3b2d45"}
+{"ts":"2026-09-18T16:08:19Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 25ms","host":"shipq-2b7-b","trace_id":"fd4b286a06390afd"}
+{"ts":"2026-09-18T16:09:43Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 15ms","host":"shipq-2b7-a","trace_id":"17221dccd332dd8d"}
+{"ts":"2026-09-18T16:09:58Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 305ms","host":"shipq-2b7-b","trace_id":"c23715776e841786"}
+{"ts":"2026-09-18T16:10:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-b","trace_id":"e3eaa469880cdb08"}
+{"ts":"2026-09-18T16:10:28Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 41ms","host":"shipq-2b7-a","trace_id":"3c58381b3eebf36a"}
+{"ts":"2026-09-18T16:10:36Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 228ms","host":"shipq-2b7-b","trace_id":"e5b60dc0c76097fc"}
+{"ts":"2026-09-18T16:11:00Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 266ms","host":"shipq-2b7-a","trace_id":"dac113abd2dd6094"}
+{"ts":"2026-09-18T16:11:58Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 26ms","host":"shipq-2b7-a","trace_id":"50a4117fea699d7a"}
+{"ts":"2026-09-18T16:12:07Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 243ms","host":"shipq-2b7-a","trace_id":"fe8f77089cf53962"}
+{"ts":"2026-09-18T16:12:37Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 44ms","host":"shipq-2b7-a","trace_id":"fe27037bdd00c2db"}
+{"ts":"2026-09-18T16:13:10Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 13ms","host":"shipq-2b7-b","trace_id":"6ee6d52c8c3f2314"}
+{"ts":"2026-09-18T16:13:29Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 187ms","host":"shipq-2b7-b","trace_id":"c6439900250bdfa0"}
+{"ts":"2026-09-18T16:14:09Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 223ms","host":"shipq-2b7-a","trace_id":"93c903b648035344"}
+{"ts":"2026-09-18T16:14:35Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 30ms","host":"shipq-2b7-b","trace_id":"405ee3a5a421e5fa"}
+{"ts":"2026-09-18T16:15:03Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 25ms","host":"shipq-2b7-b","trace_id":"3efdb8b7426e0c5d"}
+{"ts":"2026-09-18T16:15:45Z","service":"shipping-quotes","level":"DEBUG","message":"GET https://api.fastcarrier.example/rates?api_key=fc_live_9f8e7d6c5b4a","host":"shipq-2b7-a","trace_id":"cbbbe80debea35d8"}
+{"ts":"2026-09-18T16:15:47Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 302ms","host":"shipq-2b7-a","trace_id":"b40c45cf783d00c4"}
+{"ts":"2026-09-18T16:16:05Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 48ms","host":"shipq-2b7-a","trace_id":"77236566d9e9f961"}
+{"ts":"2026-09-18T16:16:18Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 201ms","host":"shipq-2b7-a","trace_id":"2efd6243c062bf2c"}
+{"ts":"2026-09-18T16:17:14Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 67ms","host":"shipq-2b7-b","trace_id":"4e86bbcc5aafbfba"}
+{"ts":"2026-09-18T16:17:54Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 227ms","host":"shipq-2b7-a","trace_id":"7d7a2e3a7b548eb4"}
+{"ts":"2026-09-18T16:18:11Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 264ms","host":"shipq-2b7-a","trace_id":"30a12db27cb3f2af"}
+{"ts":"2026-09-18T16:18:58Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 20ms","host":"shipq-2b7-a","trace_id":"566ea0ebd34d2fd0"}
+{"ts":"2026-09-18T16:19:14Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 39ms","host":"shipq-2b7-a","trace_id":"cd9cef119d697169"}
+{"ts":"2026-09-18T16:19:20Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 313ms","host":"shipq-2b7-a","trace_id":"1a4da5460a1fc8f8"}
+{"ts":"2026-09-18T16:20:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-b","trace_id":"01379f7a3c5fd12c"}
+{"ts":"2026-09-18T16:20:09Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 85ms","host":"shipq-2b7-a","trace_id":"4d71688aaf317b69"}
+{"ts":"2026-09-18T16:20:22Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 268ms","host":"shipq-2b7-b","trace_id":"bcfe763a24e0bb9a"}
+{"ts":"2026-09-18T16:21:40Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 36ms","host":"shipq-2b7-b","trace_id":"538ac8999aca02b8"}
+{"ts":"2026-09-18T16:21:55Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 268ms","host":"shipq-2b7-a","trace_id":"ae0f2fb4ea91a368"}
+{"ts":"2026-09-18T16:22:10Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 318ms","host":"shipq-2b7-b","trace_id":"208e7260473b74b3"}
+{"ts":"2026-09-18T16:22:24Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 59ms","host":"shipq-2b7-b","trace_id":"1905d8611ba12793"}
+{"ts":"2026-09-18T16:23:13Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 185ms","host":"shipq-2b7-b","trace_id":"321798baa7c3e094"}
+{"ts":"2026-09-18T16:23:29Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 44ms","host":"shipq-2b7-b","trace_id":"2c8027eb89c70005"}
+{"ts":"2026-09-18T16:24:14Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 292ms","host":"shipq-2b7-a","trace_id":"89a07e8dd7bbf13c"}
+{"ts":"2026-09-18T16:24:23Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 56ms","host":"shipq-2b7-b","trace_id":"46f554f31f089ce8"}
+{"ts":"2026-09-18T16:25:48Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 71ms","host":"shipq-2b7-b","trace_id":"1c52b4c38b194cd3"}
+{"ts":"2026-09-18T16:25:57Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 185ms","host":"shipq-2b7-a","trace_id":"78335b41dd559ec6"}
+{"ts":"2026-09-18T16:26:29Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 25ms","host":"shipq-2b7-a","trace_id":"5f4e66bf235a86ac"}
+{"ts":"2026-09-18T16:26:36Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 240ms","host":"shipq-2b7-b","trace_id":"bc3982b3d4deed05"}
+{"ts":"2026-09-18T16:27:03Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 235ms","host":"shipq-2b7-a","trace_id":"a3d28682d992ddde"}
+{"ts":"2026-09-18T16:27:12Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 39ms","host":"shipq-2b7-a","trace_id":"5efecd644623c565"}
+{"ts":"2026-09-18T16:28:18Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 19ms","host":"shipq-2b7-b","trace_id":"b9b53d24b81bff4c"}
+{"ts":"2026-09-18T16:28:59Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 305ms","host":"shipq-2b7-b","trace_id":"265ecda1cd3acbc0"}
+{"ts":"2026-09-18T16:29:08Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 264ms","host":"shipq-2b7-a","trace_id":"f1c4859538d0a969"}
+{"ts":"2026-09-18T16:29:14Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 71ms","host":"shipq-2b7-b","trace_id":"a264077a94a6fc9a"}
+{"ts":"2026-09-18T16:30:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-a","trace_id":"704b3616410fa4f0"}
+{"ts":"2026-09-18T16:30:01Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"c7ad7b9da2833be9"}
+{"ts":"2026-09-18T16:30:13Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"2eb2d8bfc6715740"}
+{"ts":"2026-09-18T16:30:44Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 286ms","host":"shipq-2b7-a","trace_id":"007c681e7d92f204"}
+{"ts":"2026-09-18T16:30:54Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 82ms","host":"shipq-2b7-b","trace_id":"bd64e608be87fda2"}
+{"ts":"2026-09-18T16:30:58Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"2db971dda2059386"}
+{"ts":"2026-09-18T16:31:24Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"06a711207cd271fb"}
+{"ts":"2026-09-18T16:31:25Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"db4c2eb6fb30a651"}
+{"ts":"2026-09-18T16:31:29Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 59ms","host":"shipq-2b7-b","trace_id":"a9913ddd8743a14a"}
+{"ts":"2026-09-18T16:31:40Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"6ca594267e8d9ed8"}
+{"ts":"2026-09-18T16:31:44Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 253ms","host":"shipq-2b7-b","trace_id":"785ed4b9754341d1"}
+{"ts":"2026-09-18T16:32:01Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"425b5195366fd2f5"}
+{"ts":"2026-09-18T16:32:03Z","service":"shipping-quotes","level":"WARN","message":"circuit breaker OPEN for upstream fastcarrier (error rate 100% over 60s)","host":"shipq-2b7-b","trace_id":"283dda5a3bef50b5"}
+{"ts":"2026-09-18T16:32:07Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"b335b20be059b9ae"}
+{"ts":"2026-09-18T16:32:30Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"9577a7a30122ae89"}
+{"ts":"2026-09-18T16:32:51Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 42ms","host":"shipq-2b7-a","trace_id":"8270e12c17bdc905"}
+{"ts":"2026-09-18T16:32:56Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 244ms","host":"shipq-2b7-b","trace_id":"228474aeb4c7ecd6"}
+{"ts":"2026-09-18T16:33:05Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 293ms","host":"shipq-2b7-a","trace_id":"0293614c2ec0edd9"}
+{"ts":"2026-09-18T16:33:06Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"12c11c7da81a523e"}
+{"ts":"2026-09-18T16:33:17Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"e49ace259a8803b9"}
+{"ts":"2026-09-18T16:33:39Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 60ms","host":"shipq-2b7-b","trace_id":"dc666f127ab0a269"}
+{"ts":"2026-09-18T16:33:55Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"2e5dd06b7e19c9ef"}
+{"ts":"2026-09-18T16:34:01Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 238ms","host":"shipq-2b7-b","trace_id":"c64ce629a2eae008"}
+{"ts":"2026-09-18T16:34:05Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"12780fca92ca0a3a"}
+{"ts":"2026-09-18T16:34:10Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"94f1216b05ae0cbc"}
+{"ts":"2026-09-18T16:34:20Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"ffca7254122add5b"}
+{"ts":"2026-09-18T16:34:41Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 63ms","host":"shipq-2b7-b","trace_id":"9f691d6154ee38e0"}
+{"ts":"2026-09-18T16:35:15Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"7f4b4f5435db3092"}
+{"ts":"2026-09-18T16:35:22Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"547cf0f0478922c1"}
+{"ts":"2026-09-18T16:35:37Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 79ms","host":"shipq-2b7-b","trace_id":"f21424a0ac93a5c1"}
+{"ts":"2026-09-18T16:35:43Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 308ms","host":"shipq-2b7-b","trace_id":"5f127cbbc4797812"}
+{"ts":"2026-09-18T16:35:45Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"aeaedff847041ed2"}
+{"ts":"2026-09-18T16:36:02Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"de70ce72de57368b"}
+{"ts":"2026-09-18T16:36:08Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"dee9789d4f426535"}
+{"ts":"2026-09-18T16:36:13Z","service":"shipping-quotes","level":"INFO","message":"quote requested by dave@example.net","host":"shipq-2b7-a","trace_id":"4652699e13f7a1b1"}
+{"ts":"2026-09-18T16:36:20Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 36ms","host":"shipq-2b7-b","trace_id":"ded9b28608580451"}
+{"ts":"2026-09-18T16:36:53Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 185ms","host":"shipq-2b7-b","trace_id":"744d96ed8fa48b3e"}
+{"ts":"2026-09-18T16:36:59Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"e5a73ec5c75a8218"}
+{"ts":"2026-09-18T16:37:03Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"af291d23d6f4cdaf"}
+{"ts":"2026-09-18T16:37:04Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"3f91f63f746cdb4b"}
+{"ts":"2026-09-18T16:37:30Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 201ms","host":"shipq-2b7-a","trace_id":"0986a4fba87f6121"}
+{"ts":"2026-09-18T16:37:41Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 40ms","host":"shipq-2b7-b","trace_id":"f0fcf792ebaebe98"}
+{"ts":"2026-09-18T16:37:58Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"32748d4ce016cf8a"}
+{"ts":"2026-09-18T16:38:30Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"23601d0998d8aebe"}
+{"ts":"2026-09-18T16:38:30Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"e7975ad62cd685c6"}
+{"ts":"2026-09-18T16:38:33Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 14ms","host":"shipq-2b7-b","trace_id":"f79153f6cdbeff6f"}
+{"ts":"2026-09-18T16:38:34Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"c2b5cfd9aca3ae76"}
+{"ts":"2026-09-18T16:38:48Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 244ms","host":"shipq-2b7-a","trace_id":"9396be25f5981e18"}
+{"ts":"2026-09-18T16:39:06Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"681198831cd64897"}
+{"ts":"2026-09-18T16:39:09Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 88ms","host":"shipq-2b7-a","trace_id":"8a9b790212c3b3b0"}
+{"ts":"2026-09-18T16:39:26Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"7770f4e9d1b55491"}
+{"ts":"2026-09-18T16:39:31Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 279ms","host":"shipq-2b7-b","trace_id":"7c411a6b6ae82118"}
+{"ts":"2026-09-18T16:39:40Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"7965d6fab86fe047"}
+{"ts":"2026-09-18T16:40:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-a","trace_id":"ab00e973a88aceb6"}
+{"ts":"2026-09-18T16:40:01Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 259ms","host":"shipq-2b7-a","trace_id":"83b8074777566843"}
+{"ts":"2026-09-18T16:40:09Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"97bbb05b57825205"}
+{"ts":"2026-09-18T16:40:11Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"b40642dd28ff9423"}
+{"ts":"2026-09-18T16:40:18Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 76ms","host":"shipq-2b7-a","trace_id":"c64d4f66e6a54e25"}
+{"ts":"2026-09-18T16:40:42Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"6681cf9d87f8c340"}
+{"ts":"2026-09-18T16:41:11Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 43ms","host":"shipq-2b7-a","trace_id":"ca965b1baa59ad72"}
+{"ts":"2026-09-18T16:41:26Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"5c74fe41b4616bfa"}
+{"ts":"2026-09-18T16:41:28Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 303ms","host":"shipq-2b7-a","trace_id":"264dc0a8b4d9a176"}
+{"ts":"2026-09-18T16:41:36Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"f9c197be3e9fe1df"}
+{"ts":"2026-09-18T16:41:59Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"f971450f172470ec"}
+{"ts":"2026-09-18T16:42:01Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"62bf32dae503218e"}
+{"ts":"2026-09-18T16:42:36Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 36ms","host":"shipq-2b7-b","trace_id":"d4863d35e7bfc74e"}
+{"ts":"2026-09-18T16:42:38Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 296ms","host":"shipq-2b7-b","trace_id":"65780e8965925ba2"}
+{"ts":"2026-09-18T16:42:45Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"fdb7eee2081011c6"}
+{"ts":"2026-09-18T16:42:59Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"d29ab03f91b1f668"}
+{"ts":"2026-09-18T16:43:04Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"b25554febeb43517"}
+{"ts":"2026-09-18T16:43:20Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"88fcdfb5515ff70a"}
+{"ts":"2026-09-18T16:43:29Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 53ms","host":"shipq-2b7-b","trace_id":"0471150b5145ba18"}
+{"ts":"2026-09-18T16:43:33Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 308ms","host":"shipq-2b7-b","trace_id":"7059d15feccf0e92"}
+{"ts":"2026-09-18T16:43:38Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"583d873d6cde5e5c"}
+{"ts":"2026-09-18T16:44:11Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 192ms","host":"shipq-2b7-b","trace_id":"3a8421f53e59776c"}
+{"ts":"2026-09-18T16:44:17Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"1d6597dae5c4ae3c"}
+{"ts":"2026-09-18T16:44:29Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 26ms","host":"shipq-2b7-b","trace_id":"85418212bce81127"}
+{"ts":"2026-09-18T16:44:42Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"75133d1bee559548"}
+{"ts":"2026-09-18T16:44:57Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"b8b60d63c80f2cb6"}
+{"ts":"2026-09-18T16:45:02Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"8e1ea07fc9de9ba0"}
+{"ts":"2026-09-18T16:45:22Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"8c89c327b656e914"}
+{"ts":"2026-09-18T16:45:32Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 64ms","host":"shipq-2b7-a","trace_id":"55a12b367a9e3b98"}
+{"ts":"2026-09-18T16:45:41Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 282ms","host":"shipq-2b7-a","trace_id":"d29647f8628c5345"}
+{"ts":"2026-09-18T16:45:48Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"bf042788f6d20a76"}
+{"ts":"2026-09-18T16:46:07Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 22ms","host":"shipq-2b7-a","trace_id":"d2896d7fecbbb49f"}
+{"ts":"2026-09-18T16:46:09Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 301ms","host":"shipq-2b7-a","trace_id":"0369a92467e3826a"}
+{"ts":"2026-09-18T16:46:25Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"65ef7eb9dc2dc387"}
+{"ts":"2026-09-18T16:46:26Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"e9775ac75db17b96"}
+{"ts":"2026-09-18T16:46:56Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"129eb8d171aa060d"}
+{"ts":"2026-09-18T16:47:10Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"a5f4157f34b6616f"}
+{"ts":"2026-09-18T16:47:12Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 50ms","host":"shipq-2b7-b","trace_id":"88317bc276f89064"}
+{"ts":"2026-09-18T16:47:12Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"6e41c12a6a7a1da3"}
+{"ts":"2026-09-18T16:47:48Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"53bf6622adcd8dbc"}
+{"ts":"2026-09-18T16:47:55Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 260ms","host":"shipq-2b7-b","trace_id":"3b1392b886a7218a"}
+{"ts":"2026-09-18T16:48:08Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 227ms","host":"shipq-2b7-b","trace_id":"a9d031987e6d8f20"}
+{"ts":"2026-09-18T16:48:09Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"5c76284d8832a466"}
+{"ts":"2026-09-18T16:48:18Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"5ff20e68d2b2f017"}
+{"ts":"2026-09-18T16:48:28Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 38ms","host":"shipq-2b7-b","trace_id":"645bc25959dd1956"}
+{"ts":"2026-09-18T16:48:59Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"07faee9135cbb4a9"}
+{"ts":"2026-09-18T16:49:05Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"452df183cb00cb7a"}
+{"ts":"2026-09-18T16:49:14Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"e6a93fe1526cb092"}
+{"ts":"2026-09-18T16:49:35Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"02a88226c0870d99"}
+{"ts":"2026-09-18T16:49:37Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 27ms","host":"shipq-2b7-b","trace_id":"930b53fc1312db45"}
+{"ts":"2026-09-18T16:49:46Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 186ms","host":"shipq-2b7-b","trace_id":"f39fe2860d6c59ac"}
+{"ts":"2026-09-18T16:50:00Z","service":"shipping-quotes","level":"DEBUG","message":"health check ok","host":"shipq-2b7-a","trace_id":"0dd30851daf1a0c3"}
+{"ts":"2026-09-18T16:50:00Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 252ms","host":"shipq-2b7-a","trace_id":"7dbf39999ecc28d6"}
+{"ts":"2026-09-18T16:50:34Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 32ms","host":"shipq-2b7-a","trace_id":"322860013646f8a1"}
+{"ts":"2026-09-18T16:50:34Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"1db9a9ebc734b30e"}
+{"ts":"2026-09-18T16:50:42Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"ef6f92924bcaa4fc"}
+{"ts":"2026-09-18T16:50:54Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"894d4c9e3b708eac"}
+{"ts":"2026-09-18T16:51:04Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"54a92923a9ec3fbc"}
+{"ts":"2026-09-18T16:51:17Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-a","trace_id":"bdb94409da0bf05a"}
+{"ts":"2026-09-18T16:51:34Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 242ms","host":"shipq-2b7-b","trace_id":"fa3f6118d76e6019"}
+{"ts":"2026-09-18T16:51:50Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 72ms","host":"shipq-2b7-b","trace_id":"8b8c5d84545e085a"}
+{"ts":"2026-09-18T16:51:54Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"74df1edd66696577"}
+{"ts":"2026-09-18T16:52:03Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"84d7341f008c87dc"}
+{"ts":"2026-09-18T16:52:18Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"57b06bbf8707dd55"}
+{"ts":"2026-09-18T16:52:32Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"0f76f53e0e1062de"}
+{"ts":"2026-09-18T16:52:37Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 28ms","host":"shipq-2b7-b","trace_id":"079a65fc5cc497bc"}
+{"ts":"2026-09-18T16:52:50Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 260ms","host":"shipq-2b7-b","trace_id":"ce0da3cd5a133bd4"}
+{"ts":"2026-09-18T16:53:04Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"025940662589145b"}
+{"ts":"2026-09-18T16:53:06Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 30ms","host":"shipq-2b7-a","trace_id":"751761ce12265852"}
+{"ts":"2026-09-18T16:53:15Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 249ms","host":"shipq-2b7-b","trace_id":"09ca591beb038ed2"}
+{"ts":"2026-09-18T16:53:26Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"595066ffbad31a61"}
+{"ts":"2026-09-18T16:53:34Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"b2367a8162d84651"}
+{"ts":"2026-09-18T16:54:14Z","service":"shipping-quotes","level":"INFO","message":"GET /api/quotes/{id} 200 38ms","host":"shipq-2b7-b","trace_id":"a4b6641295a4560b"}
+{"ts":"2026-09-18T16:54:20Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"dd1801233c810815"}
+{"ts":"2026-09-18T16:54:28Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"522347c952b13d51"}
+{"ts":"2026-09-18T16:54:33Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"231cd61cb210a4c2"}
+{"ts":"2026-09-18T16:54:38Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 280ms","host":"shipq-2b7-a","trace_id":"a488a426c4d28831"}
+{"ts":"2026-09-18T16:55:01Z","service":"shipping-quotes","level":"INFO","message":"POST /api/quotes 200 78ms","host":"shipq-2b7-b","trace_id":"93a6a1274b63e3a5"}
+{"ts":"2026-09-18T16:55:20Z","service":"shipping-quotes","level":"INFO","message":"upstream https://api.parcelco.example/rates 200 312ms","host":"shipq-2b7-b","trace_id":"b05542debb0dda65"}
+{"ts":"2026-09-18T16:55:36Z","service":"shipping-quotes","level":"WARN","message":"POST /api/quotes 504: fastcarrier quote unavailable","host":"shipq-2b7-b","trace_id":"67f2bff574034e42"}
+{"ts":"2026-09-18T16:55:52Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-b","trace_id":"b1695e70b650d753"}
+{"ts":"2026-09-18T16:55:57Z","service":"shipping-quotes","level":"ERROR","message":"upstream request to https://api.fastcarrier.example/rates timed out after 5000ms (attempt 3/3)","host":"shipq-2b7-a","trace_id":"4e5ff810e6e05dd2"}

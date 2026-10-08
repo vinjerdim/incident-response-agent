@@ -1,0 +1,235 @@
+{"ts":"2026-09-14T13:32:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-b","trace_id":"c87383f4b1429de1"}
+{"ts":"2026-09-14T13:32:13Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 76ms","host":"checkout-7f9c-a","trace_id":"49dc9b34eae3732d"}
+{"ts":"2026-09-14T13:32:58Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 36ms","host":"checkout-7f9c-b","trace_id":"0c6bdf0d7796668d"}
+{"ts":"2026-09-14T13:33:28Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 54ms","host":"checkout-7f9c-a","trace_id":"317b3b8641578916"}
+{"ts":"2026-09-14T13:33:28Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 23ms","host":"checkout-7f9c-b","trace_id":"78c02b33310d70c3"}
+{"ts":"2026-09-14T13:34:29Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 67ms","host":"checkout-7f9c-b","trace_id":"1c5d552b363519c6"}
+{"ts":"2026-09-14T13:34:40Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 42ms","host":"checkout-7f9c-b","trace_id":"3551084a6c1bfcd6"}
+{"ts":"2026-09-14T13:35:27Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 41ms","host":"checkout-7f9c-a","trace_id":"be95856a6790e118"}
+{"ts":"2026-09-14T13:35:42Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 54ms","host":"checkout-7f9c-b","trace_id":"c8454836650751aa"}
+{"ts":"2026-09-14T13:36:00Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 65ms","host":"checkout-7f9c-b","trace_id":"88fb3cb33779a772"}
+{"ts":"2026-09-14T13:36:50Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 56ms","host":"checkout-7f9c-a","trace_id":"b4605d865ef397cd"}
+{"ts":"2026-09-14T13:37:16Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 13ms","host":"checkout-7f9c-a","trace_id":"08da627efc51be5a"}
+{"ts":"2026-09-14T13:37:17Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 35ms","host":"checkout-7f9c-a","trace_id":"26981fe2c37bc213"}
+{"ts":"2026-09-14T13:38:55Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 51ms","host":"checkout-7f9c-a","trace_id":"87d3ce5db0eaa33a"}
+{"ts":"2026-09-14T13:38:57Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 58ms","host":"checkout-7f9c-b","trace_id":"7f9a88002a94a441"}
+{"ts":"2026-09-14T13:39:05Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 12ms","host":"checkout-7f9c-a","trace_id":"935f73140830b057"}
+{"ts":"2026-09-14T13:39:44Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 80ms","host":"checkout-7f9c-b","trace_id":"d1359052d6ace48b"}
+{"ts":"2026-09-14T13:40:49Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 90ms","host":"checkout-7f9c-b","trace_id":"a3393fc5cacfdbc6"}
+{"ts":"2026-09-14T13:40:59Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 34ms","host":"checkout-7f9c-a","trace_id":"eed3d0ddbcfbc3fa"}
+{"ts":"2026-09-14T13:41:21Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 51ms","host":"checkout-7f9c-b","trace_id":"0f408912114b229f"}
+{"ts":"2026-09-14T13:41:56Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 69ms","host":"checkout-7f9c-a","trace_id":"f5060b6814cae322"}
+{"ts":"2026-09-14T13:42:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-a","trace_id":"7753a287400131ab"}
+{"ts":"2026-09-14T13:42:43Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 47ms","host":"checkout-7f9c-b","trace_id":"47b5a88d173376b2"}
+{"ts":"2026-09-14T13:42:44Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 82ms","host":"checkout-7f9c-b","trace_id":"0eb7e20b76882765"}
+{"ts":"2026-09-14T13:43:00Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 34ms","host":"checkout-7f9c-a","trace_id":"653e6f8aa20f493f"}
+{"ts":"2026-09-14T13:43:07Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 66ms","host":"checkout-7f9c-b","trace_id":"187ae0853e8d8fbc"}
+{"ts":"2026-09-14T13:44:30Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 46ms","host":"checkout-7f9c-a","trace_id":"97d6d46b8d65f68c"}
+{"ts":"2026-09-14T13:44:41Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 70ms","host":"checkout-7f9c-a","trace_id":"56234718cde48cf6"}
+{"ts":"2026-09-14T13:45:21Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 52ms","host":"checkout-7f9c-a","trace_id":"223d8b3aefdd8bfa"}
+{"ts":"2026-09-14T13:45:43Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 56ms","host":"checkout-7f9c-b","trace_id":"673ad1d6e4e7ad63"}
+{"ts":"2026-09-14T13:46:42Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 30ms","host":"checkout-7f9c-a","trace_id":"57adf7182556adf3"}
+{"ts":"2026-09-14T13:46:47Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 18ms","host":"checkout-7f9c-a","trace_id":"10f880c1842fbe3a"}
+{"ts":"2026-09-14T13:47:01Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 59ms","host":"checkout-7f9c-b","trace_id":"aa4398ccdc350021"}
+{"ts":"2026-09-14T13:47:32Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 58ms","host":"checkout-7f9c-a","trace_id":"75590d2c20a53e16"}
+{"ts":"2026-09-14T13:48:15Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 44ms","host":"checkout-7f9c-b","trace_id":"74746f57341c3d30"}
+{"ts":"2026-09-14T13:48:20Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 83ms","host":"checkout-7f9c-b","trace_id":"4d165d76ad07fec1"}
+{"ts":"2026-09-14T13:49:15Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 17ms","host":"checkout-7f9c-a","trace_id":"fe2962af9402e836"}
+{"ts":"2026-09-14T13:49:28Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 68ms","host":"checkout-7f9c-a","trace_id":"8d80a58d44dc452a"}
+{"ts":"2026-09-14T13:50:00Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 19ms","host":"checkout-7f9c-b","trace_id":"73bb0586ed6dc367"}
+{"ts":"2026-09-14T13:50:02Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 38ms","host":"checkout-7f9c-b","trace_id":"fbcaa22ef98a6244"}
+{"ts":"2026-09-14T13:51:02Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 19ms","host":"checkout-7f9c-b","trace_id":"a365a4479abdbf04"}
+{"ts":"2026-09-14T13:51:49Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 47ms","host":"checkout-7f9c-a","trace_id":"bf44deab7cc5fe28"}
+{"ts":"2026-09-14T13:52:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-b","trace_id":"43e2d1051bd0e956"}
+{"ts":"2026-09-14T13:52:09Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 21ms","host":"checkout-7f9c-b","trace_id":"f9a56531b6b04f68"}
+{"ts":"2026-09-14T13:52:39Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 23ms","host":"checkout-7f9c-b","trace_id":"853b96cb56c63b91"}
+{"ts":"2026-09-14T13:53:14Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 24ms","host":"checkout-7f9c-a","trace_id":"28764923a6b7ef66"}
+{"ts":"2026-09-14T13:53:22Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 42ms","host":"checkout-7f9c-a","trace_id":"cbdec32aa4ed7138"}
+{"ts":"2026-09-14T13:54:50Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 87ms","host":"checkout-7f9c-a","trace_id":"231103a272e019fe"}
+{"ts":"2026-09-14T13:54:57Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 36ms","host":"checkout-7f9c-a","trace_id":"97b921f11ae22c66"}
+{"ts":"2026-09-14T13:55:07Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 28ms","host":"checkout-7f9c-a","trace_id":"0a7a48d0fd01e01b"}
+{"ts":"2026-09-14T13:55:21Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 13ms","host":"checkout-7f9c-a","trace_id":"a8e6ae8493aeec66"}
+{"ts":"2026-09-14T13:56:36Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 90ms","host":"checkout-7f9c-a","trace_id":"467e273bfe688479"}
+{"ts":"2026-09-14T13:56:44Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 29ms","host":"checkout-7f9c-a","trace_id":"49c9be541dce4093"}
+{"ts":"2026-09-14T13:57:03Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 79ms","host":"checkout-7f9c-a","trace_id":"49c919d44c17098b"}
+{"ts":"2026-09-14T13:57:46Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 33ms","host":"checkout-7f9c-b","trace_id":"8ef27d5ea7e11fc6"}
+{"ts":"2026-09-14T13:58:24Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 51ms","host":"checkout-7f9c-a","trace_id":"3e420229782cda69"}
+{"ts":"2026-09-14T13:58:50Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 31ms","host":"checkout-7f9c-b","trace_id":"084cb783b272fd6c"}
+{"ts":"2026-09-14T13:59:09Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 64ms","host":"checkout-7f9c-a","trace_id":"706455d17ed95549"}
+{"ts":"2026-09-14T13:59:56Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 36ms","host":"checkout-7f9c-b","trace_id":"06f6dfcdc1fbd60d"}
+{"ts":"2026-09-14T14:00:02Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 45ms","host":"checkout-7f9c-b","trace_id":"4123da5620e3b441"}
+{"ts":"2026-09-14T14:00:49Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 54ms","host":"checkout-7f9c-a","trace_id":"4fcc778539593e5c"}
+{"ts":"2026-09-14T14:01:23Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 90ms","host":"checkout-7f9c-b","trace_id":"ef08ae6f9df9a2a8"}
+{"ts":"2026-09-14T14:01:29Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 19ms","host":"checkout-7f9c-b","trace_id":"2d2b6732176b1077"}
+{"ts":"2026-09-14T14:02:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-a","trace_id":"201ea41161404ca3"}
+{"ts":"2026-09-14T14:02:02Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 61ms","host":"checkout-7f9c-b","trace_id":"3b5610db0e83d197"}
+{"ts":"2026-09-14T14:02:23Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 14ms","host":"checkout-7f9c-b","trace_id":"f8761930dabe79a7"}
+{"ts":"2026-09-14T14:02:32Z","service":"checkout-api","level":"DEBUG","message":"payment request payload email=jane.doe@example.com card=4111111111111111","host":"checkout-7f9c-b","trace_id":"b9262ba37a43cb3c"}
+{"ts":"2026-09-14T14:03:44Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 65ms","host":"checkout-7f9c-b","trace_id":"5e73898f4507ddc9"}
+{"ts":"2026-09-14T14:03:53Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 62ms","host":"checkout-7f9c-a","trace_id":"bbf0b30beab33557"}
+{"ts":"2026-09-14T14:04:33Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 33ms","host":"checkout-7f9c-b","trace_id":"eb72489d4c16c1a8"}
+{"ts":"2026-09-14T14:04:43Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 39ms","host":"checkout-7f9c-b","trace_id":"65b7e5b5da8a25fc"}
+{"ts":"2026-09-14T14:05:48Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 13ms","host":"checkout-7f9c-b","trace_id":"74f74c9c4938de66"}
+{"ts":"2026-09-14T14:05:56Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 65ms","host":"checkout-7f9c-a","trace_id":"87cbcfdd0dc9b667"}
+{"ts":"2026-09-14T14:06:39Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 59ms","host":"checkout-7f9c-b","trace_id":"5d6d665f22ececc7"}
+{"ts":"2026-09-14T14:06:49Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 43ms","host":"checkout-7f9c-a","trace_id":"7154804dc529e606"}
+{"ts":"2026-09-14T14:07:24Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 20ms","host":"checkout-7f9c-a","trace_id":"c2f34dcb9f129ecd"}
+{"ts":"2026-09-14T14:07:34Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 24ms","host":"checkout-7f9c-a","trace_id":"ad4f249be2aca704"}
+{"ts":"2026-09-14T14:08:35Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 21ms","host":"checkout-7f9c-a","trace_id":"c174bfbeddc9a6c4"}
+{"ts":"2026-09-14T14:08:52Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 46ms","host":"checkout-7f9c-b","trace_id":"61d90ffbd48d9265"}
+{"ts":"2026-09-14T14:09:23Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 18ms","host":"checkout-7f9c-a","trace_id":"2b97bbf503406779"}
+{"ts":"2026-09-14T14:09:32Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 80ms","host":"checkout-7f9c-b","trace_id":"6b25b7c5bd68114b"}
+{"ts":"2026-09-14T14:10:33Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 32ms","host":"checkout-7f9c-a","trace_id":"b8d65a478ff9a332"}
+{"ts":"2026-09-14T14:10:36Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 79ms","host":"checkout-7f9c-a","trace_id":"902d37c48d66e405"}
+{"ts":"2026-09-14T14:11:07Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 72ms","host":"checkout-7f9c-a","trace_id":"7ff64a197b73fb14"}
+{"ts":"2026-09-14T14:11:12Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 23ms","host":"checkout-7f9c-a","trace_id":"8f36ff410d154c93"}
+{"ts":"2026-09-14T14:12:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-a","trace_id":"403532ed91c86255"}
+{"ts":"2026-09-14T14:12:08Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 35ms","host":"checkout-7f9c-a","trace_id":"7fc2b26e28974909"}
+{"ts":"2026-09-14T14:12:47Z","service":"checkout-api","level":"WARN","message":"slow query 412ms on orders-db (SELECT * FROM carts WHERE ...); db cpu 48%","host":"checkout-7f9c-a","trace_id":"97d9f3a983cf7a6e"}
+{"ts":"2026-09-14T14:12:50Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 73ms","host":"checkout-7f9c-a","trace_id":"5bc485b82bdb7d1f"}
+{"ts":"2026-09-14T14:13:00Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 12ms","host":"checkout-7f9c-b","trace_id":"278af35009974cf5"}
+{"ts":"2026-09-14T14:13:59Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 41ms","host":"checkout-7f9c-a","trace_id":"b850735bfe8abbda"}
+{"ts":"2026-09-14T14:14:22Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 54ms","host":"checkout-7f9c-b","trace_id":"39dc41b951b6e6de"}
+{"ts":"2026-09-14T14:14:40Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 43ms","host":"checkout-7f9c-a","trace_id":"2596a186520d82b8"}
+{"ts":"2026-09-14T14:15:18Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 50ms","host":"checkout-7f9c-b","trace_id":"f0378169842ffc6b"}
+{"ts":"2026-09-14T14:15:42Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 32ms","host":"checkout-7f9c-a","trace_id":"fa5ab70bb6be24ea"}
+{"ts":"2026-09-14T14:16:06Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 60ms","host":"checkout-7f9c-b","trace_id":"e32e0443d2e5c61e"}
+{"ts":"2026-09-14T14:16:13Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 44ms","host":"checkout-7f9c-b","trace_id":"ecdfa84e7e53e2a2"}
+{"ts":"2026-09-14T14:17:08Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 38ms","host":"checkout-7f9c-a","trace_id":"6a38243e1495a7b5"}
+{"ts":"2026-09-14T14:17:50Z","service":"checkout-api","level":"WARN","message":"slow query 388ms on orders-db (SELECT * FROM carts WHERE ...)","host":"checkout-7f9c-a","trace_id":"4a57e9e0e6d35b0b"}
+{"ts":"2026-09-14T14:17:56Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 62ms","host":"checkout-7f9c-a","trace_id":"2cebc1a04d9e23e1"}
+{"ts":"2026-09-14T14:18:22Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 90ms","host":"checkout-7f9c-a","trace_id":"2d52baf3afdf620e"}
+{"ts":"2026-09-14T14:18:32Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 28ms","host":"checkout-7f9c-b","trace_id":"ec22a35c0f9d089e"}
+{"ts":"2026-09-14T14:19:24Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 18ms","host":"checkout-7f9c-b","trace_id":"b787e69fffc2b477"}
+{"ts":"2026-09-14T14:19:55Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 83ms","host":"checkout-7f9c-b","trace_id":"001debfec8503c18"}
+{"ts":"2026-09-14T14:20:11Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 58ms","host":"checkout-7f9c-a","trace_id":"7700975e7ef6ff00"}
+{"ts":"2026-09-14T14:20:50Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 37ms","host":"checkout-7f9c-b","trace_id":"2683ed1cb30a505c"}
+{"ts":"2026-09-14T14:21:19Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 42ms","host":"checkout-7f9c-b","trace_id":"11b467ea5212ba3e"}
+{"ts":"2026-09-14T14:21:22Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 68ms","host":"checkout-7f9c-a","trace_id":"a3672ba0b21e4477"}
+{"ts":"2026-09-14T14:22:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-b","trace_id":"4cc2ee5c60ae747c"}
+{"ts":"2026-09-14T14:22:02Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 74ms","host":"checkout-7f9c-a","trace_id":"58fd423b5da8570b"}
+{"ts":"2026-09-14T14:22:04Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 53ms","host":"checkout-7f9c-a","trace_id":"cac6b38d14f980ef"}
+{"ts":"2026-09-14T14:23:51Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 47ms","host":"checkout-7f9c-a","trace_id":"d7e2908d2c9d97c8"}
+{"ts":"2026-09-14T14:23:57Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 37ms","host":"checkout-7f9c-a","trace_id":"83c3bc06843cb367"}
+{"ts":"2026-09-14T14:24:05Z","service":"checkout-api","level":"INFO","message":"deploy v2.14.0 rollout started (0/6 pods)","host":"checkout-7f9c-b","trace_id":"b6061d0b84f12371"}
+{"ts":"2026-09-14T14:24:44Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 57ms","host":"checkout-7f9c-a","trace_id":"2efe2ab2ef18d421"}
+{"ts":"2026-09-14T14:24:50Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 46ms","host":"checkout-7f9c-a","trace_id":"b5e09035e2693ef0"}
+{"ts":"2026-09-14T14:25:21Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 84ms","host":"checkout-7f9c-a","trace_id":"abef27b16a7c8ba4"}
+{"ts":"2026-09-14T14:25:40Z","service":"checkout-api","level":"INFO","message":"deploy v2.14.0 rollout complete (6/6 pods)","host":"checkout-7f9c-a","trace_id":"fa87ed874021652f"}
+{"ts":"2026-09-14T14:25:42Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 65ms","host":"checkout-7f9c-b","trace_id":"485ba33b987bb18b"}
+{"ts":"2026-09-14T14:25:46Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"aa1f5e5c2397985a"}
+{"ts":"2026-09-14T14:25:50Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"9051fb1fcea505fc"}
+{"ts":"2026-09-14T14:25:59Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"02491d547641771f"}
+{"ts":"2026-09-14T14:26:04Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"49d9a542cf91b505"}
+{"ts":"2026-09-14T14:26:19Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 15ms","host":"checkout-7f9c-b","trace_id":"d344b715feca9220"}
+{"ts":"2026-09-14T14:26:43Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"89093fe1f142ae0b"}
+{"ts":"2026-09-14T14:26:45Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"8d43235592b11aec"}
+{"ts":"2026-09-14T14:26:50Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 78ms","host":"checkout-7f9c-a","trace_id":"ff75acb56f34d800"}
+{"ts":"2026-09-14T14:27:01Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"c53360a343d07aba"}
+{"ts":"2026-09-14T14:27:05Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 51ms","host":"checkout-7f9c-b","trace_id":"45fb32b289e59b04"}
+{"ts":"2026-09-14T14:27:31Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"ffbf05f33f2f7599"}
+{"ts":"2026-09-14T14:27:46Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"e29976ae2e7e19c6"}
+{"ts":"2026-09-14T14:27:48Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 42ms","host":"checkout-7f9c-b","trace_id":"2bbabf42c835d7af"}
+{"ts":"2026-09-14T14:28:00Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 79ms","host":"checkout-7f9c-b","trace_id":"94792242a1ea379f"}
+{"ts":"2026-09-14T14:28:01Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 56ms","host":"checkout-7f9c-a","trace_id":"b3e470c33dbfa873"}
+{"ts":"2026-09-14T14:28:16Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"39c697b71146a00b"}
+{"ts":"2026-09-14T14:28:26Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"f4d03d84321fc078"}
+{"ts":"2026-09-14T14:28:31Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"a0bd69eaee55a77b"}
+{"ts":"2026-09-14T14:29:11Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"7cd668a6f58c8e10"}
+{"ts":"2026-09-14T14:29:24Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 60ms","host":"checkout-7f9c-b","trace_id":"6a554c70ba038207"}
+{"ts":"2026-09-14T14:29:26Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"f3d0e5c9b0113188"}
+{"ts":"2026-09-14T14:29:29Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 22ms","host":"checkout-7f9c-b","trace_id":"191f65c6c237429f"}
+{"ts":"2026-09-14T14:29:50Z","service":"checkout-api","level":"DEBUG","message":"outbound call headers Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.ZmFrZQ.c2ln","host":"checkout-7f9c-a","trace_id":"9dd5e969a87a00bb"}
+{"ts":"2026-09-14T14:29:56Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"941abb8c8b9b1689"}
+{"ts":"2026-09-14T14:30:06Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 85ms","host":"checkout-7f9c-b","trace_id":"8c16a91e4e97f0df"}
+{"ts":"2026-09-14T14:30:23Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"7718570f822db992"}
+{"ts":"2026-09-14T14:30:26Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 21ms","host":"checkout-7f9c-a","trace_id":"05365bee277d1321"}
+{"ts":"2026-09-14T14:30:43Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"e2e0f1a83ea17887"}
+{"ts":"2026-09-14T14:30:51Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"4666ff9306b9487f"}
+{"ts":"2026-09-14T14:31:10Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 74ms","host":"checkout-7f9c-a","trace_id":"854efb1415d05d07"}
+{"ts":"2026-09-14T14:31:27Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"f1a2f0ad516710ee"}
+{"ts":"2026-09-14T14:31:37Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 79ms","host":"checkout-7f9c-b","trace_id":"bfc7c0503075e9b9"}
+{"ts":"2026-09-14T14:31:38Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"2dc67248b7d4d402"}
+{"ts":"2026-09-14T14:31:55Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"fdf79110b2bd1cd1"}
+{"ts":"2026-09-14T14:32:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-b","trace_id":"d58f4f920a7b85d2"}
+{"ts":"2026-09-14T14:32:04Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 71ms","host":"checkout-7f9c-a","trace_id":"48aad8aadc9f9691"}
+{"ts":"2026-09-14T14:32:05Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 32ms","host":"checkout-7f9c-a","trace_id":"a4343f8eaff96744"}
+{"ts":"2026-09-14T14:32:39Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"c313b9dfbf312068"}
+{"ts":"2026-09-14T14:32:50Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"b59daf9c21dd5c06"}
+{"ts":"2026-09-14T14:32:58Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"26aefc204e8dbace"}
+{"ts":"2026-09-14T14:33:22Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 35ms","host":"checkout-7f9c-a","trace_id":"084627bc67c9e3f4"}
+{"ts":"2026-09-14T14:33:26Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 33ms","host":"checkout-7f9c-a","trace_id":"8bd5da28e22379b2"}
+{"ts":"2026-09-14T14:33:30Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"e2bc86144e7f2835"}
+{"ts":"2026-09-14T14:33:30Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"5fe2bdbb3b928afc"}
+{"ts":"2026-09-14T14:33:33Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"0b4d7c1d8b3d0b4e"}
+{"ts":"2026-09-14T14:34:12Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 28ms","host":"checkout-7f9c-b","trace_id":"bace72fc15bb2eb4"}
+{"ts":"2026-09-14T14:34:17Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"5ffb760473cc3856"}
+{"ts":"2026-09-14T14:34:20Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"d7c6e0e7c0063192"}
+{"ts":"2026-09-14T14:34:27Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 31ms","host":"checkout-7f9c-a","trace_id":"d80669516158c80e"}
+{"ts":"2026-09-14T14:34:29Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"daa3c980e5ac9c84"}
+{"ts":"2026-09-14T14:35:21Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 90ms","host":"checkout-7f9c-a","trace_id":"19179a41c3e6246c"}
+{"ts":"2026-09-14T14:35:24Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"48da474e6c476e94"}
+{"ts":"2026-09-14T14:35:26Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 15ms","host":"checkout-7f9c-a","trace_id":"a6cb495c893e9193"}
+{"ts":"2026-09-14T14:35:33Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"913c90f38849ed2e"}
+{"ts":"2026-09-14T14:35:45Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"0ef546b7d2b86c57"}
+{"ts":"2026-09-14T14:36:23Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"834b958794d8abbc"}
+{"ts":"2026-09-14T14:36:30Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"ed1908b3143ad1e9"}
+{"ts":"2026-09-14T14:36:41Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"51a30a337eede0b0"}
+{"ts":"2026-09-14T14:36:43Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 32ms","host":"checkout-7f9c-b","trace_id":"9077b93786afe829"}
+{"ts":"2026-09-14T14:36:45Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 70ms","host":"checkout-7f9c-a","trace_id":"1b0444b82e92cd88"}
+{"ts":"2026-09-14T14:37:11Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 69ms","host":"checkout-7f9c-a","trace_id":"3962c71cb3f61eaa"}
+{"ts":"2026-09-14T14:37:14Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"32d93c07c8579d6a"}
+{"ts":"2026-09-14T14:37:45Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"127be8ac01884878"}
+{"ts":"2026-09-14T14:37:58Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 78ms","host":"checkout-7f9c-a","trace_id":"4f6a023f212b5964"}
+{"ts":"2026-09-14T14:37:58Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"7b0580823959e588"}
+{"ts":"2026-09-14T14:38:03Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"c987da98be1c6aa3"}
+{"ts":"2026-09-14T14:38:14Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"a19de1773e03aca1"}
+{"ts":"2026-09-14T14:38:15Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 54ms","host":"checkout-7f9c-b","trace_id":"1f6b7269152aca90"}
+{"ts":"2026-09-14T14:38:17Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"e0a46a80408be055"}
+{"ts":"2026-09-14T14:38:39Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 39ms","host":"checkout-7f9c-a","trace_id":"d942ab107e8e176f"}
+{"ts":"2026-09-14T14:39:02Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"88a134b89281244a"}
+{"ts":"2026-09-14T14:39:07Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 69ms","host":"checkout-7f9c-b","trace_id":"10b79a99c471012e"}
+{"ts":"2026-09-14T14:39:18Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 52ms","host":"checkout-7f9c-a","trace_id":"9b27076c0d0d59b2"}
+{"ts":"2026-09-14T14:39:28Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"5c27609ceb61563a"}
+{"ts":"2026-09-14T14:39:37Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"ddc5bdfde2456966"}
+{"ts":"2026-09-14T14:40:07Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 16ms","host":"checkout-7f9c-a","trace_id":"e060e32212b859bf"}
+{"ts":"2026-09-14T14:40:30Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"c2f86089b0f710a8"}
+{"ts":"2026-09-14T14:40:49Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"2565f29e7e6416b7"}
+{"ts":"2026-09-14T14:40:53Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"69f216fcd68218a5"}
+{"ts":"2026-09-14T14:40:59Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 35ms","host":"checkout-7f9c-b","trace_id":"1304e90299bd0972"}
+{"ts":"2026-09-14T14:41:02Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"9c50610bfea5cb6f"}
+{"ts":"2026-09-14T14:41:10Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"28b399dab3dda5e2"}
+{"ts":"2026-09-14T14:41:55Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"87feeb929f8a3cc4"}
+{"ts":"2026-09-14T14:41:57Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 19ms","host":"checkout-7f9c-a","trace_id":"8e762feaa66e5a11"}
+{"ts":"2026-09-14T14:41:58Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 62ms","host":"checkout-7f9c-b","trace_id":"0de01eada27241f5"}
+{"ts":"2026-09-14T14:42:00Z","service":"checkout-api","level":"DEBUG","message":"health check ok","host":"checkout-7f9c-b","trace_id":"9b0d220193f063a3"}
+{"ts":"2026-09-14T14:42:12Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"a3157eaf6b6d6da0"}
+{"ts":"2026-09-14T14:42:14Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"691b58641103ce1c"}
+{"ts":"2026-09-14T14:42:21Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 74ms","host":"checkout-7f9c-a","trace_id":"57aeb3f9b7ca4e90"}
+{"ts":"2026-09-14T14:42:27Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 75ms","host":"checkout-7f9c-b","trace_id":"cea427bfc414d36b"}
+{"ts":"2026-09-14T14:42:34Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"8c1b5e69807f9116"}
+{"ts":"2026-09-14T14:43:14Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"9bdd4f24f2bbcdbe"}
+{"ts":"2026-09-14T14:43:20Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 42ms","host":"checkout-7f9c-a","trace_id":"a04fae902ead03e8"}
+{"ts":"2026-09-14T14:43:40Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"74e742c47a93aeed"}
+{"ts":"2026-09-14T14:43:47Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 66ms","host":"checkout-7f9c-b","trace_id":"09689706a984032d"}
+{"ts":"2026-09-14T14:43:56Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"e0e9f8ed5190c94b"}
+{"ts":"2026-09-14T14:44:10Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"45992de85862522b"}
+{"ts":"2026-09-14T14:44:12Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 41ms","host":"checkout-7f9c-a","trace_id":"72241dbc2ebd875d"}
+{"ts":"2026-09-14T14:44:35Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 53ms","host":"checkout-7f9c-b","trace_id":"cfca4e461cb220fe"}
+{"ts":"2026-09-14T14:44:40Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"42bebc098427d3e8"}
+{"ts":"2026-09-14T14:44:49Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"d66e07fc8ca736a9"}
+{"ts":"2026-09-14T14:45:03Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"1206d8a9a1348df1"}
+{"ts":"2026-09-14T14:45:21Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 64ms","host":"checkout-7f9c-a","trace_id":"af850f3d98abfcf6"}
+{"ts":"2026-09-14T14:45:22Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 47ms","host":"checkout-7f9c-b","trace_id":"6be13d9340d13e19"}
+{"ts":"2026-09-14T14:45:32Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"c1e4dae5f3e4e52d"}
+{"ts":"2026-09-14T14:45:34Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"6ac80e71316db70d"}
+{"ts":"2026-09-14T14:46:14Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"49485d4506e124cc"}
+{"ts":"2026-09-14T14:46:23Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"671ea9a855be187d"}
+{"ts":"2026-09-14T14:46:28Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"ea300f7d02699f04"}
+{"ts":"2026-09-14T14:46:33Z","service":"checkout-api","level":"INFO","message":"POST /api/checkout 200 14ms","host":"checkout-7f9c-a","trace_id":"3b59bc2551c44c6e"}
+{"ts":"2026-09-14T14:46:48Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 64ms","host":"checkout-7f9c-b","trace_id":"ffa915f52d84171a"}
+{"ts":"2026-09-14T14:47:14Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"fc57773a9c2d3bb5"}
+{"ts":"2026-09-14T14:47:16Z","service":"checkout-api","level":"INFO","message":"GET /api/cart/summary 200 54ms","host":"checkout-7f9c-a","trace_id":"8670379fc469cf51"}
+{"ts":"2026-09-14T14:47:21Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-a","trace_id":"f95c57b236600290"}
+{"ts":"2026-09-14T14:47:51Z","service":"checkout-api","level":"ERROR","message":"Unhandled exception in POST /api/checkout: KeyError: 'promo_code' (checkout/pricing.py:88 in apply_discount)","host":"checkout-7f9c-b","trace_id":"f6da944b9874734d"}
+{"ts":"2026-09-14T14:47:53Z","service":"checkout-api","level":"INFO","message":"GET /api/cart 200 14ms","host":"checkout-7f9c-b","trace_id":"37c13e4fece0d6e5"}

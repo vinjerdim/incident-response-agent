@@ -1,0 +1,135 @@
+{"ts":"2026-09-21T18:00:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-04","trace_id":"f006dcc1c29429d7"}
+{"ts":"2026-09-21T18:00:41Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 69ms","host":"catalog-03","trace_id":"2126ced2b88197ed"}
+{"ts":"2026-09-21T18:01:24Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 56ms","host":"catalog-04","trace_id":"3eb640b8c71fe053"}
+{"ts":"2026-09-21T18:02:00Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 35ms","host":"catalog-03","trace_id":"b3741c87117f9b31"}
+{"ts":"2026-09-21T18:03:37Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 17ms","host":"catalog-01","trace_id":"f2563f9d9838c9b2"}
+{"ts":"2026-09-21T18:04:17Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 78ms","host":"catalog-05","trace_id":"138dca47a01d6856"}
+{"ts":"2026-09-21T18:05:32Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 87ms","host":"catalog-01","trace_id":"8d8b0fea098236b0"}
+{"ts":"2026-09-21T18:06:53Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 33ms","host":"catalog-05","trace_id":"3eaa6749b6a58d33"}
+{"ts":"2026-09-21T18:07:08Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 76ms","host":"catalog-05","trace_id":"c91fd622ca7b7434"}
+{"ts":"2026-09-21T18:08:51Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 13ms","host":"catalog-02","trace_id":"e963a4cde2790aa4"}
+{"ts":"2026-09-21T18:09:39Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 61ms","host":"catalog-05","trace_id":"ef35df70e93cde0e"}
+{"ts":"2026-09-21T18:10:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-01","trace_id":"db1e883e972f3174"}
+{"ts":"2026-09-21T18:10:10Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 25ms","host":"catalog-05","trace_id":"69a5d2ac53a8a257"}
+{"ts":"2026-09-21T18:11:34Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 78ms","host":"catalog-05","trace_id":"829252446c842072"}
+{"ts":"2026-09-21T18:12:36Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 77ms","host":"catalog-06","trace_id":"91226a37572728a5"}
+{"ts":"2026-09-21T18:13:27Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 81ms","host":"catalog-05","trace_id":"11479dbb7b474e28"}
+{"ts":"2026-09-21T18:14:46Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 29ms","host":"catalog-02","trace_id":"352a71a61bb81e17"}
+{"ts":"2026-09-21T18:15:43Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 80ms","host":"catalog-05","trace_id":"55dece5d998a71a2"}
+{"ts":"2026-09-21T18:16:24Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 90ms","host":"catalog-03","trace_id":"d155cfd1a698401f"}
+{"ts":"2026-09-21T18:17:20Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 80ms","host":"catalog-04","trace_id":"4ed9e5c97d1792c5"}
+{"ts":"2026-09-21T18:18:09Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 73ms","host":"catalog-01","trace_id":"90a2df14cfb7ed58"}
+{"ts":"2026-09-21T18:19:50Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 64ms","host":"catalog-02","trace_id":"349e8937eccda8ce"}
+{"ts":"2026-09-21T18:20:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-02","trace_id":"122ab0c501797e5a"}
+{"ts":"2026-09-21T18:20:03Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 27ms","host":"catalog-03","trace_id":"19c74bf6be50495e"}
+{"ts":"2026-09-21T18:21:36Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 46ms","host":"catalog-03","trace_id":"5b9efca7b3801102"}
+{"ts":"2026-09-21T18:22:35Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 43ms","host":"catalog-03","trace_id":"5d3689f40123b3bf"}
+{"ts":"2026-09-21T18:23:01Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 43ms","host":"catalog-05","trace_id":"a51f2a351840d529"}
+{"ts":"2026-09-21T18:24:41Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 76ms","host":"catalog-05","trace_id":"2dca20af73e68d3c"}
+{"ts":"2026-09-21T18:25:45Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 41ms","host":"catalog-04","trace_id":"d667963ca80df975"}
+{"ts":"2026-09-21T18:26:31Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 77ms","host":"catalog-06","trace_id":"b64ca8f8f8937500"}
+{"ts":"2026-09-21T18:27:38Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 22ms","host":"catalog-04","trace_id":"e548771253a33a87"}
+{"ts":"2026-09-21T18:28:32Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 42ms","host":"catalog-05","trace_id":"ee6a0df83754c0a7"}
+{"ts":"2026-09-21T18:29:10Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 72ms","host":"catalog-04","trace_id":"dd939642cf0441bd"}
+{"ts":"2026-09-21T18:30:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-05","trace_id":"a3b4b5b6d071bb7c"}
+{"ts":"2026-09-21T18:30:58Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 57ms","host":"catalog-02","trace_id":"1d0396769f43da35"}
+{"ts":"2026-09-21T18:31:16Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 79ms","host":"catalog-04","trace_id":"d0c0c5f16798b096"}
+{"ts":"2026-09-21T18:32:19Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 81ms","host":"catalog-01","trace_id":"412bf620c1644543"}
+{"ts":"2026-09-21T18:33:39Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 89ms","host":"catalog-01","trace_id":"d956db0c30c49732"}
+{"ts":"2026-09-21T18:34:13Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 43ms","host":"catalog-02","trace_id":"7e50eaf268472907"}
+{"ts":"2026-09-21T18:35:33Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 15ms","host":"catalog-02","trace_id":"65129e22c6e36776"}
+{"ts":"2026-09-21T18:36:57Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 43ms","host":"catalog-04","trace_id":"0705a6e943b18dcc"}
+{"ts":"2026-09-21T18:37:16Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 39ms","host":"catalog-02","trace_id":"47f9156410750f93"}
+{"ts":"2026-09-21T18:38:17Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 49ms","host":"catalog-06","trace_id":"4417a18d8b496514"}
+{"ts":"2026-09-21T18:39:38Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 38ms","host":"catalog-03","trace_id":"dd3aafae60c154c0"}
+{"ts":"2026-09-21T18:40:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-06","trace_id":"f08a7a3899c41164"}
+{"ts":"2026-09-21T18:40:21Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 50ms","host":"catalog-04","trace_id":"17fa4c962c30e607"}
+{"ts":"2026-09-21T18:40:38Z","service":"catalog-api","level":"DEBUG","message":"analytics event email=grace@example.com card=4111111111111111","host":"catalog-05","trace_id":"e5bda981e415e015"}
+{"ts":"2026-09-21T18:41:41Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 77ms","host":"catalog-03","trace_id":"33c949293680b8df"}
+{"ts":"2026-09-21T18:42:07Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 16ms","host":"catalog-05","trace_id":"e24cad5615a9f0d0"}
+{"ts":"2026-09-21T18:43:44Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 68ms","host":"catalog-02","trace_id":"4231eea58dd028e5"}
+{"ts":"2026-09-21T18:44:41Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 80ms","host":"catalog-06","trace_id":"7cbe311e976dd957"}
+{"ts":"2026-09-21T18:45:20Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 90ms","host":"catalog-06","trace_id":"f0ea5a2de9022209"}
+{"ts":"2026-09-21T18:45:44Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 83ms","host":"catalog-03","trace_id":"e9c61a7f4efdb44a"}
+{"ts":"2026-09-21T18:46:01Z","service":"catalog-api","level":"WARN","message":"product cache miss rate elevated: 22% (new campaign SKUs)","host":"catalog-06","trace_id":"89eb20269b45a159"}
+{"ts":"2026-09-21T18:46:25Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 65ms","host":"catalog-04","trace_id":"20cca9a82c4872a2"}
+{"ts":"2026-09-21T18:46:28Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 231ms","host":"catalog-04","trace_id":"0a90bf923986db19"}
+{"ts":"2026-09-21T18:47:09Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 42ms","host":"catalog-02","trace_id":"17e5c6765778c9ea"}
+{"ts":"2026-09-21T18:47:42Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 372ms","host":"catalog-02","trace_id":"0aab8a1763b235fb"}
+{"ts":"2026-09-21T18:48:02Z","service":"catalog-api","level":"INFO","message":"HPA catalog-api: scaling 6 -> 12 replicas (cpu 88%)","host":"kube-controller","trace_id":"a618768c717a7007"}
+{"ts":"2026-09-21T18:48:19Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 32ms","host":"catalog-03","trace_id":"0c9aff62487f5d01"}
+{"ts":"2026-09-21T18:48:52Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 513ms","host":"catalog-03","trace_id":"7d18f170a1e42468"}
+{"ts":"2026-09-21T18:49:26Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 48ms","host":"catalog-04","trace_id":"079fa41fbb5c2909"}
+{"ts":"2026-09-21T18:49:37Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 654ms","host":"catalog-02","trace_id":"555819c532d903b0"}
+{"ts":"2026-09-21T18:50:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-05","trace_id":"d7dd9aab46354875"}
+{"ts":"2026-09-21T18:50:33Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 795ms","host":"catalog-03","trace_id":"67e17874a96cfa68"}
+{"ts":"2026-09-21T18:50:50Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 31ms","host":"catalog-02","trace_id":"a02b24e5c5d27bd6"}
+{"ts":"2026-09-21T18:51:03Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 18ms","host":"catalog-01","trace_id":"0b0beaba9b580ae0"}
+{"ts":"2026-09-21T18:51:24Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 936ms","host":"catalog-01","trace_id":"2f1bc9f4a72cf81a"}
+{"ts":"2026-09-21T18:51:25Z","service":"catalog-api","level":"WARN","message":"product cache miss rate elevated: 22% (new campaign SKUs)","host":"catalog-03","trace_id":"2c60d0bc1592bcc9"}
+{"ts":"2026-09-21T18:52:07Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1077ms","host":"catalog-05","trace_id":"130699174cca04bd"}
+{"ts":"2026-09-21T18:52:11Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 82ms","host":"catalog-02","trace_id":"ebbb37802fb6839b"}
+{"ts":"2026-09-21T18:52:51Z","service":"catalog-api","level":"INFO","message":"HPA catalog-api: scaled to 20/20 replicas (max reached)","host":"kube-controller","trace_id":"f3a5e6db39da1b44"}
+{"ts":"2026-09-21T18:53:03Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"8f2690e36ffc5702"}
+{"ts":"2026-09-21T18:53:46Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 57ms","host":"catalog-02","trace_id":"ba42d415f1e7888c"}
+{"ts":"2026-09-21T18:53:52Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1218ms","host":"catalog-05","trace_id":"0a5ab585a297676e"}
+{"ts":"2026-09-21T18:54:05Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 21ms","host":"catalog-02","trace_id":"b4981b944d3b7db7"}
+{"ts":"2026-09-21T18:54:10Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1359ms","host":"catalog-05","trace_id":"9ba6b904ed2b9d01"}
+{"ts":"2026-09-21T18:54:11Z","service":"catalog-api","level":"ERROR","message":"GET /api/products/{sku} 503 upstream connect timeout (pod saturated)","host":"catalog-06","trace_id":"b4f8b56a473e6d44"}
+{"ts":"2026-09-21T18:55:01Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"90066328ad53aa2e"}
+{"ts":"2026-09-21T18:55:07Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-04","trace_id":"1ec9cbb727a7d7c8"}
+{"ts":"2026-09-21T18:55:46Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 13ms","host":"catalog-02","trace_id":"90de292d48b1c591"}
+{"ts":"2026-09-21T18:56:15Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-01","trace_id":"e3390856f7de9693"}
+{"ts":"2026-09-21T18:56:55Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 53ms","host":"catalog-02","trace_id":"8f308bdfe4b23bac"}
+{"ts":"2026-09-21T18:57:05Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-05","trace_id":"45fd81809c7bf903"}
+{"ts":"2026-09-21T18:57:37Z","service":"catalog-api","level":"WARN","message":"product cache miss rate elevated: 22% (new campaign SKUs)","host":"catalog-05","trace_id":"a2054343f2aebb93"}
+{"ts":"2026-09-21T18:57:49Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"0c8f9431e5967a02"}
+{"ts":"2026-09-21T18:57:53Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 23ms","host":"catalog-03","trace_id":"ef546b1bed83610d"}
+{"ts":"2026-09-21T18:58:35Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 25ms","host":"catalog-05","trace_id":"9abd143365bcda01"}
+{"ts":"2026-09-21T18:58:39Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-02","trace_id":"e298cc9c59a9873e"}
+{"ts":"2026-09-21T18:59:48Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 87ms","host":"catalog-02","trace_id":"1953dc09793cfae5"}
+{"ts":"2026-09-21T18:59:50Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"8c1f6972b15769ee"}
+{"ts":"2026-09-21T18:59:51Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-01","trace_id":"c55e436af9b8d613"}
+{"ts":"2026-09-21T19:00:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-05","trace_id":"70b7018d730e5448"}
+{"ts":"2026-09-21T19:00:16Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 48ms","host":"catalog-05","trace_id":"4b02fab27f2bfca8"}
+{"ts":"2026-09-21T19:00:27Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-02","trace_id":"8992e69b82225c5e"}
+{"ts":"2026-09-21T19:01:07Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"b68c94c7ef7fa738"}
+{"ts":"2026-09-21T19:01:24Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 78ms","host":"catalog-04","trace_id":"0911227ea6b18ebb"}
+{"ts":"2026-09-21T19:01:59Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-01","trace_id":"e6c4566c9399cd8c"}
+{"ts":"2026-09-21T19:02:15Z","service":"catalog-api","level":"WARN","message":"product cache miss rate elevated: 22% (new campaign SKUs)","host":"catalog-03","trace_id":"340e6f0c51618e89"}
+{"ts":"2026-09-21T19:02:42Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 17ms","host":"catalog-04","trace_id":"5f33c7db7f8a4348"}
+{"ts":"2026-09-21T19:02:49Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-06","trace_id":"f6f44167d08159a8"}
+{"ts":"2026-09-21T19:03:21Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 81ms","host":"catalog-03","trace_id":"a2ada30b7ec1efb3"}
+{"ts":"2026-09-21T19:03:22Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-06","trace_id":"17c0ab201a136267"}
+{"ts":"2026-09-21T19:03:45Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"c345b0de8bf312f8"}
+{"ts":"2026-09-21T19:04:29Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 89ms","host":"catalog-04","trace_id":"ca0c8ae318e5473d"}
+{"ts":"2026-09-21T19:04:32Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-05","trace_id":"d06b2fbb220ca57c"}
+{"ts":"2026-09-21T19:05:15Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"51473eeae94e462d"}
+{"ts":"2026-09-21T19:05:39Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 21ms","host":"catalog-04","trace_id":"1f78ae0bdf7369de"}
+{"ts":"2026-09-21T19:05:52Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-02","trace_id":"eda7974e6ada2eb9"}
+{"ts":"2026-09-21T19:06:08Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-03","trace_id":"7b8c86083d96829a"}
+{"ts":"2026-09-21T19:06:34Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 54ms","host":"catalog-01","trace_id":"d13e738aeab11e2b"}
+{"ts":"2026-09-21T19:07:21Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 55ms","host":"catalog-04","trace_id":"2b13b9c90590e4f1"}
+{"ts":"2026-09-21T19:07:33Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-01","trace_id":"60dbdf1601603296"}
+{"ts":"2026-09-21T19:07:38Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"ef14b7fd6268039f"}
+{"ts":"2026-09-21T19:08:31Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 63ms","host":"catalog-04","trace_id":"4caa30ecaea9956f"}
+{"ts":"2026-09-21T19:08:50Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-03","trace_id":"6bb35f1c73297cb7"}
+{"ts":"2026-09-21T19:09:07Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-03","trace_id":"d3630de61edf15ea"}
+{"ts":"2026-09-21T19:09:17Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"c3f0ab8828b9b2a2"}
+{"ts":"2026-09-21T19:09:45Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 23ms","host":"catalog-06","trace_id":"4a4beeb0ddfb9437"}
+{"ts":"2026-09-21T19:10:00Z","service":"catalog-api","level":"DEBUG","message":"health check ok","host":"catalog-06","trace_id":"4f29ffbe0a20263b"}
+{"ts":"2026-09-21T19:10:13Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-02","trace_id":"2e42fbac254d4b0d"}
+{"ts":"2026-09-21T19:10:46Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 33ms","host":"catalog-02","trace_id":"5d6135ca462e500a"}
+{"ts":"2026-09-21T19:11:05Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-03","trace_id":"6e43317b8de69d36"}
+{"ts":"2026-09-21T19:11:32Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"c4a0cf29b4f52085"}
+{"ts":"2026-09-21T19:11:42Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 31ms","host":"catalog-06","trace_id":"54f236c43668519d"}
+{"ts":"2026-09-21T19:12:37Z","service":"catalog-api","level":"INFO","message":"GET /api/products 200 49ms","host":"catalog-03","trace_id":"19ad7186ae5df162"}
+{"ts":"2026-09-21T19:12:59Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-04","trace_id":"421a57b80381a8dc"}
+{"ts":"2026-09-21T19:13:01Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 50ms","host":"catalog-02","trace_id":"1f1d812019252d82"}
+{"ts":"2026-09-21T19:13:31Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"b1cdc6b1fd418318"}
+{"ts":"2026-09-21T19:13:39Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-04","trace_id":"70cc0d72dfac2045"}
+{"ts":"2026-09-21T19:14:07Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-01","trace_id":"db5aece0bddf2348"}
+{"ts":"2026-09-21T19:14:20Z","service":"catalog-api","level":"INFO","message":"GET /api/products/{sku} 200 74ms","host":"catalog-05","trace_id":"d9b1977d3314a3a8"}
+{"ts":"2026-09-21T19:15:00Z","service":"catalog-api","level":"WARN","message":"HPA catalog-api: desired replicas 34 exceeds maxReplicas 20","host":"kube-controller","trace_id":"115b1134209d57f8"}
+{"ts":"2026-09-21T19:15:48Z","service":"catalog-api","level":"INFO","message":"GET /api/categories 200 37ms","host":"catalog-02","trace_id":"3d982a73cc004e38"}
+{"ts":"2026-09-21T19:15:50Z","service":"catalog-api","level":"INFO","message":"GET /api/products?utm_campaign=fall_mega_sale 200 1500ms","host":"catalog-05","trace_id":"de84429a1f5cfac1"}

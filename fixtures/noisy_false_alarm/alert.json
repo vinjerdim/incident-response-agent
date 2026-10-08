@@ -1,0 +1,19 @@
+{
+  "id": "alert-noisy_false_alarm",
+  "source": "alertmanager",
+  "service": "search-api",
+  "title": "CRITICAL: search-api p99 latency > 2000ms - CUSTOMERS IMPACTED",
+  "description": "p99_latency_ms > 2000 over 1m window",
+  "severity": "critical",
+  "fired_at": "2026-09-19T11:20:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "search",
+    "alertname": "SearchP99High"
+  },
+  "dedupe_key": "SearchP99High/search-api",
+  "raw": {
+    "alertname": "SearchP99High",
+    "status": "firing"
+  }
+}

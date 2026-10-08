@@ -1,0 +1,19 @@
+{
+  "id": "alert-upstream_outage",
+  "source": "alertmanager",
+  "service": "shipping-quotes",
+  "title": "shipping-quotes 504 rate above 10%",
+  "description": "http_504_rate > 10% for 5m",
+  "severity": "high",
+  "fired_at": "2026-09-18T16:40:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "logistics",
+    "alertname": "Quotes504High"
+  },
+  "dedupe_key": "Quotes504High/shipping-quotes",
+  "raw": {
+    "alertname": "Quotes504High",
+    "status": "firing"
+  }
+}

@@ -1,4 +1,4 @@
-.PHONY: install test lint fmt eval demo
+.PHONY: install test lint fmt fixtures eval demo
 
 INCIDENT ?=
 
@@ -21,3 +21,6 @@ eval:
 
 demo:
 	@echo "make demo INCIDENT=$(INCIDENT): not implemented until Phase 4" && exit 1
+
+fixtures:
+	uv run python scripts/build_fixtures.py

@@ -1,0 +1,19 @@
+{
+  "id": "alert-memory_leak",
+  "source": "alertmanager",
+  "service": "recommendations",
+  "title": "recommendations pods restarting (OOMKilled)",
+  "description": "kube_pod_container_status_restarts increased by >= 2 in 1h",
+  "severity": "medium",
+  "fired_at": "2026-09-16T09:05:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "discovery",
+    "alertname": "PodRestartLoop"
+  },
+  "dedupe_key": "PodRestartLoop/recommendations",
+  "raw": {
+    "alertname": "PodRestartLoop",
+    "status": "firing"
+  }
+}

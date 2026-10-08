@@ -1,0 +1,18 @@
+{
+  "id": "alert-expired_cert",
+  "source": "pagerduty",
+  "service": "payments-gateway",
+  "title": "Payment success rate dropped below 90%",
+  "description": "payment_success_rate < 90% for 2m",
+  "severity": "critical",
+  "fired_at": "2026-09-17T00:03:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "payments"
+  },
+  "dedupe_key": "payments-gateway/success",
+  "raw": {
+    "event_action": "trigger",
+    "routing_key": "payments"
+  }
+}

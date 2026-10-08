@@ -1,0 +1,12 @@
+[
+  {
+    "id": "d-3305",
+    "service": "search-api",
+    "kind": "code",
+    "version": "v7.0.3",
+    "author": "dev-yuki",
+    "ts": "2026-09-12T11:20:00Z",
+    "summary": "Upgrade analyzer for Japanese text",
+    "diff": "--- a/search/analyzers.py\n+++ b/search/analyzers.py\n-    'kuromoji': '1.2'\n+    'kuromoji': '1.3'\n"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "d-4410",
+    "service": "catalog-api",
+    "kind": "code",
+    "version": "v9.4.2",
+    "author": "dev-lena",
+    "ts": "2026-09-16T19:00:00Z",
+    "summary": "Add category facets",
+    "diff": "--- a/catalog/facets.py\n+++ b/catalog/facets.py\n+FACETS = ['brand', 'color']\n"
+  }
+]

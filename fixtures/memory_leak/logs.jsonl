@@ -1,0 +1,112 @@
+{"ts":"2026-09-16T08:05:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-c","trace_id":"9f8573c9f25dc993"}
+{"ts":"2026-09-16T08:05:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=541200 entries","host":"recs-6c4-b","trace_id":"41dee59a87c65619"}
+{"ts":"2026-09-16T08:05:47Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 42ms","host":"recs-6c4-a","trace_id":"fe91532917857e08"}
+{"ts":"2026-09-16T08:06:33Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 84ms","host":"recs-6c4-b","trace_id":"68e2b292285f0789"}
+{"ts":"2026-09-16T08:07:07Z","service":"recommendations","level":"INFO","message":"loaded config: s3_bucket=recs-models s3_access_key=AKIAIOSFODNN7EXAMPLE","host":"recs-6c4-b","trace_id":"e5b14e0ed89ebc45"}
+{"ts":"2026-09-16T08:07:52Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 86ms","host":"recs-6c4-a","trace_id":"874ea8e941ac9159"}
+{"ts":"2026-09-16T08:08:52Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 88ms","host":"recs-6c4-a","trace_id":"64201495b1e815b9"}
+{"ts":"2026-09-16T08:09:18Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 75ms","host":"recs-6c4-a","trace_id":"9ec6cf92d28aa609"}
+{"ts":"2026-09-16T08:10:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=676200 entries","host":"recs-6c4-b","trace_id":"ccd51654b3ba26c4"}
+{"ts":"2026-09-16T08:10:45Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 47ms","host":"recs-6c4-a","trace_id":"371dc8733aadf7dc"}
+{"ts":"2026-09-16T08:11:10Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 31ms","host":"recs-6c4-a","trace_id":"4b339f5696c9481b"}
+{"ts":"2026-09-16T08:12:52Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 43ms","host":"recs-6c4-c","trace_id":"8615c87cb3d2be9d"}
+{"ts":"2026-09-16T08:13:15Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 79ms","host":"recs-6c4-c","trace_id":"ff3b040ce03433eb"}
+{"ts":"2026-09-16T08:14:56Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 46ms","host":"recs-6c4-b","trace_id":"fd749de5cfd29b42"}
+{"ts":"2026-09-16T08:15:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-b","trace_id":"453a10832b29c99e"}
+{"ts":"2026-09-16T08:15:02Z","service":"recommendations","level":"ERROR","message":"container recommendations killed: OOMKilled (limit 2048Mi), restart #4","host":"recs-6c4-a","trace_id":"55c3434abca8a9b4"}
+{"ts":"2026-09-16T08:15:04Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 57ms","host":"recs-6c4-c","trace_id":"e639d968f9d2c7c8"}
+{"ts":"2026-09-16T08:15:20Z","service":"recommendations","level":"INFO","message":"recommendations starting up; embedding cache empty","host":"recs-6c4-b","trace_id":"fa757fd8e5cf5a23"}
+{"ts":"2026-09-16T08:15:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=1200 entries","host":"recs-6c4-a","trace_id":"774b854a5a8e04d5"}
+{"ts":"2026-09-16T08:16:53Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 27ms","host":"recs-6c4-c","trace_id":"bb14e0dafe6d2215"}
+{"ts":"2026-09-16T08:17:05Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 74ms","host":"recs-6c4-a","trace_id":"eecb1583f48fbafb"}
+{"ts":"2026-09-16T08:18:20Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 16ms","host":"recs-6c4-c","trace_id":"ee916831a3a6a5d4"}
+{"ts":"2026-09-16T08:19:45Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 33ms","host":"recs-6c4-c","trace_id":"b497dd061281a4aa"}
+{"ts":"2026-09-16T08:20:06Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 12ms","host":"recs-6c4-b","trace_id":"2b3befeb2286a294"}
+{"ts":"2026-09-16T08:20:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=136200 entries","host":"recs-6c4-a","trace_id":"cddbd19416f47eba"}
+{"ts":"2026-09-16T08:20:52Z","service":"recommendations","level":"WARN","message":"gc: gen2 collection took 640ms; consider tuning gc thresholds","host":"recs-6c4-c","trace_id":"a89e516c2a25308d"}
+{"ts":"2026-09-16T08:21:41Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 36ms","host":"recs-6c4-c","trace_id":"9f5feb5006e50bf0"}
+{"ts":"2026-09-16T08:22:34Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 45ms","host":"recs-6c4-c","trace_id":"1023fc610718ecd6"}
+{"ts":"2026-09-16T08:23:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 36ms","host":"recs-6c4-c","trace_id":"2ec55385daaeea81"}
+{"ts":"2026-09-16T08:24:31Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 17ms","host":"recs-6c4-c","trace_id":"93e17355276c1681"}
+{"ts":"2026-09-16T08:25:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-a","trace_id":"843980133627e79b"}
+{"ts":"2026-09-16T08:25:04Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 85ms","host":"recs-6c4-a","trace_id":"693448997c40406f"}
+{"ts":"2026-09-16T08:25:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=271200 entries","host":"recs-6c4-c","trace_id":"970309de8feb13e9"}
+{"ts":"2026-09-16T08:26:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 56ms","host":"recs-6c4-b","trace_id":"5709fd35de867be9"}
+{"ts":"2026-09-16T08:27:58Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 73ms","host":"recs-6c4-c","trace_id":"6b98d7e477ad9508"}
+{"ts":"2026-09-16T08:28:50Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 79ms","host":"recs-6c4-b","trace_id":"65b93eade0eed89d"}
+{"ts":"2026-09-16T08:29:12Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 21ms","host":"recs-6c4-b","trace_id":"8111e1b9e87bd01b"}
+{"ts":"2026-09-16T08:30:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=406200 entries","host":"recs-6c4-a","trace_id":"552de5618e12709e"}
+{"ts":"2026-09-16T08:30:34Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 52ms","host":"recs-6c4-c","trace_id":"7c6a8fd7de539130"}
+{"ts":"2026-09-16T08:31:43Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 44ms","host":"recs-6c4-a","trace_id":"caaa86d6261c4b12"}
+{"ts":"2026-09-16T08:32:38Z","service":"recommendations","level":"WARN","message":"gc: gen2 collection took 640ms; consider tuning gc thresholds","host":"recs-6c4-a","trace_id":"4b1d5c07c8b9d06f"}
+{"ts":"2026-09-16T08:32:41Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 46ms","host":"recs-6c4-b","trace_id":"f25dbcf2a6d7e86a"}
+{"ts":"2026-09-16T08:33:29Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 58ms","host":"recs-6c4-b","trace_id":"95fde89f0b3e55f5"}
+{"ts":"2026-09-16T08:34:21Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 40ms","host":"recs-6c4-c","trace_id":"823bcc2348e0ec29"}
+{"ts":"2026-09-16T08:35:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-c","trace_id":"d2693f2ceb780506"}
+{"ts":"2026-09-16T08:35:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=541200 entries","host":"recs-6c4-c","trace_id":"25f52ee8e3aaadce"}
+{"ts":"2026-09-16T08:35:43Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 82ms","host":"recs-6c4-b","trace_id":"6499ab4a41919d1b"}
+{"ts":"2026-09-16T08:36:01Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 31ms","host":"recs-6c4-c","trace_id":"c584f0faa4bf79af"}
+{"ts":"2026-09-16T08:37:41Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 44ms","host":"recs-6c4-b","trace_id":"06b377c599dde742"}
+{"ts":"2026-09-16T08:38:50Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 61ms","host":"recs-6c4-a","trace_id":"dac23b9edc3b62a3"}
+{"ts":"2026-09-16T08:39:10Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 50ms","host":"recs-6c4-b","trace_id":"8508d659dbd836e9"}
+{"ts":"2026-09-16T08:40:20Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 63ms","host":"recs-6c4-a","trace_id":"aabc56992913580f"}
+{"ts":"2026-09-16T08:40:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=676200 entries","host":"recs-6c4-c","trace_id":"cbd24328ecb99ec1"}
+{"ts":"2026-09-16T08:41:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 47ms","host":"recs-6c4-b","trace_id":"2ce199f0ba33aa3c"}
+{"ts":"2026-09-16T08:42:35Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 55ms","host":"recs-6c4-a","trace_id":"927e56d4c7708323"}
+{"ts":"2026-09-16T08:43:01Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 21ms","host":"recs-6c4-a","trace_id":"3c717d51fd42f458"}
+{"ts":"2026-09-16T08:44:45Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 54ms","host":"recs-6c4-b","trace_id":"8e46933ec2fd6b56"}
+{"ts":"2026-09-16T08:45:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-b","trace_id":"65dccdfc22c8d655"}
+{"ts":"2026-09-16T08:45:02Z","service":"recommendations","level":"ERROR","message":"container recommendations killed: OOMKilled (limit 2048Mi), restart #5","host":"recs-6c4-a","trace_id":"649c6d0fdecbf318"}
+{"ts":"2026-09-16T08:45:20Z","service":"recommendations","level":"INFO","message":"recommendations starting up; embedding cache empty","host":"recs-6c4-b","trace_id":"2a00808dbf3ace50"}
+{"ts":"2026-09-16T08:45:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=1200 entries","host":"recs-6c4-c","trace_id":"68c81a7d43bef232"}
+{"ts":"2026-09-16T08:45:49Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 69ms","host":"recs-6c4-a","trace_id":"4f9069a776b2c5a4"}
+{"ts":"2026-09-16T08:46:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 70ms","host":"recs-6c4-a","trace_id":"deb58f45e6b730fd"}
+{"ts":"2026-09-16T08:47:15Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 78ms","host":"recs-6c4-a","trace_id":"f4f0058db405f483"}
+{"ts":"2026-09-16T08:48:11Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 75ms","host":"recs-6c4-a","trace_id":"1c84156befa028f6"}
+{"ts":"2026-09-16T08:49:36Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 59ms","host":"recs-6c4-c","trace_id":"568f28976b517edb"}
+{"ts":"2026-09-16T08:50:07Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 21ms","host":"recs-6c4-b","trace_id":"207acc06751da8a8"}
+{"ts":"2026-09-16T08:50:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=136200 entries","host":"recs-6c4-c","trace_id":"88fcb4c7ae55b3f2"}
+{"ts":"2026-09-16T08:51:48Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 63ms","host":"recs-6c4-b","trace_id":"c35951f0a061ec44"}
+{"ts":"2026-09-16T08:52:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 15ms","host":"recs-6c4-c","trace_id":"3ffe8eae4377c600"}
+{"ts":"2026-09-16T08:53:21Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 74ms","host":"recs-6c4-c","trace_id":"9f8b25fd12f40476"}
+{"ts":"2026-09-16T08:53:21Z","service":"recommendations","level":"WARN","message":"gc: gen2 collection took 640ms; consider tuning gc thresholds","host":"recs-6c4-a","trace_id":"5d917a05cebeaf23"}
+{"ts":"2026-09-16T08:54:56Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 20ms","host":"recs-6c4-a","trace_id":"2452e091530f4dbf"}
+{"ts":"2026-09-16T08:55:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-c","trace_id":"34c56f653720581f"}
+{"ts":"2026-09-16T08:55:09Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 87ms","host":"recs-6c4-c","trace_id":"fd1e51679fcab641"}
+{"ts":"2026-09-16T08:55:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=271200 entries","host":"recs-6c4-c","trace_id":"e504aebfe949a4e3"}
+{"ts":"2026-09-16T08:56:59Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 22ms","host":"recs-6c4-b","trace_id":"ee156e7a4521c39e"}
+{"ts":"2026-09-16T08:57:38Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 66ms","host":"recs-6c4-b","trace_id":"cf78697dcfb7c3a3"}
+{"ts":"2026-09-16T08:58:50Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 38ms","host":"recs-6c4-b","trace_id":"61f4411b7baefaf8"}
+{"ts":"2026-09-16T08:58:51Z","service":"recommendations","level":"DEBUG","message":"recs requested by bob.smith@example.org","host":"recs-6c4-a","trace_id":"9cd42946b63c8f77"}
+{"ts":"2026-09-16T08:59:25Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 68ms","host":"recs-6c4-b","trace_id":"5bbb225b9d0341b3"}
+{"ts":"2026-09-16T09:00:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=406200 entries","host":"recs-6c4-c","trace_id":"7da2a82083f935fb"}
+{"ts":"2026-09-16T09:00:46Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 53ms","host":"recs-6c4-b","trace_id":"75afe63d5a04fffa"}
+{"ts":"2026-09-16T09:01:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 39ms","host":"recs-6c4-c","trace_id":"acb29a375c6f4556"}
+{"ts":"2026-09-16T09:02:36Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 60ms","host":"recs-6c4-b","trace_id":"fa685b7309541dfe"}
+{"ts":"2026-09-16T09:03:56Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 46ms","host":"recs-6c4-c","trace_id":"65e8966688943c83"}
+{"ts":"2026-09-16T09:04:41Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 87ms","host":"recs-6c4-b","trace_id":"79e7cf4705fe3cbc"}
+{"ts":"2026-09-16T09:05:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-a","trace_id":"7ab9551254d19753"}
+{"ts":"2026-09-16T09:05:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=541200 entries","host":"recs-6c4-a","trace_id":"81eba2f730aaeff8"}
+{"ts":"2026-09-16T09:05:40Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 77ms","host":"recs-6c4-c","trace_id":"34fea44ba74ef2eb"}
+{"ts":"2026-09-16T09:06:08Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 66ms","host":"recs-6c4-c","trace_id":"e5c5d8ab4f67ee99"}
+{"ts":"2026-09-16T09:07:11Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 20ms","host":"recs-6c4-c","trace_id":"f0e1affbaf20b45c"}
+{"ts":"2026-09-16T09:08:17Z","service":"recommendations","level":"WARN","message":"gc: gen2 collection took 640ms; consider tuning gc thresholds","host":"recs-6c4-a","trace_id":"44d9fa5f90183b3a"}
+{"ts":"2026-09-16T09:08:22Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 40ms","host":"recs-6c4-a","trace_id":"49401e48c0e8f816"}
+{"ts":"2026-09-16T09:09:10Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 25ms","host":"recs-6c4-c","trace_id":"82e33ecd7b12524a"}
+{"ts":"2026-09-16T09:10:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=676200 entries","host":"recs-6c4-b","trace_id":"84542a2dda39a42e"}
+{"ts":"2026-09-16T09:10:57Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 48ms","host":"recs-6c4-c","trace_id":"93404fae2c6d788c"}
+{"ts":"2026-09-16T09:11:42Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 46ms","host":"recs-6c4-a","trace_id":"fbb6ce8f0f5b8433"}
+{"ts":"2026-09-16T09:12:03Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 60ms","host":"recs-6c4-b","trace_id":"425c3179a54b815a"}
+{"ts":"2026-09-16T09:13:17Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 31ms","host":"recs-6c4-a","trace_id":"0cf17064ced9c02a"}
+{"ts":"2026-09-16T09:14:27Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 77ms","host":"recs-6c4-c","trace_id":"54439233098573ee"}
+{"ts":"2026-09-16T09:15:00Z","service":"recommendations","level":"DEBUG","message":"health check ok","host":"recs-6c4-a","trace_id":"e1bbf1c302fe2e93"}
+{"ts":"2026-09-16T09:15:01Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 68ms","host":"recs-6c4-a","trace_id":"1369a5df942b8e48"}
+{"ts":"2026-09-16T09:15:02Z","service":"recommendations","level":"ERROR","message":"container recommendations killed: OOMKilled (limit 2048Mi), restart #6","host":"recs-6c4-c","trace_id":"c433270ec4f5e7fb"}
+{"ts":"2026-09-16T09:15:20Z","service":"recommendations","level":"INFO","message":"recommendations starting up; embedding cache empty","host":"recs-6c4-a","trace_id":"5f4349c34d4054d0"}
+{"ts":"2026-09-16T09:15:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=1200 entries","host":"recs-6c4-b","trace_id":"b814ce63006a168a"}
+{"ts":"2026-09-16T09:16:16Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 44ms","host":"recs-6c4-a","trace_id":"07d168c2161cb8b6"}
+{"ts":"2026-09-16T09:17:35Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 67ms","host":"recs-6c4-b","trace_id":"e71d908dd0785b18"}
+{"ts":"2026-09-16T09:18:32Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 61ms","host":"recs-6c4-c","trace_id":"98e4298f97d5a3f0"}
+{"ts":"2026-09-16T09:19:15Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user} 200 44ms","host":"recs-6c4-b","trace_id":"d65b78b936d90eeb"}
+{"ts":"2026-09-16T09:20:30Z","service":"recommendations","level":"INFO","message":"embedding cache size=136200 entries","host":"recs-6c4-b","trace_id":"58321a43d23f05b1"}
+{"ts":"2026-09-16T09:20:34Z","service":"recommendations","level":"INFO","message":"GET /api/recs/{user}/similar 200 65ms","host":"recs-6c4-c","trace_id":"e4e9680e9c594775"}

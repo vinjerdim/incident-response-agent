@@ -61,10 +61,11 @@ def _fail(store: Store, alert: Alert, inv_id: str, error: str) -> None:
 
 def fixture_runner(store: Store, client: Any | None, settings: Settings) -> Runner:
     """Fixture mode: pick the incident fixture whose alert service matches."""
-    index = {
-        load_incident(n, settings.fixtures_dir).alert.service: n
-        for n in list_incidents(settings.fixtures_dir)
-    }
+    index = {}
+    for n in list_incidents(settings.fixtures_dir):
+        f = load_incident(n, settings.fixtures_dir)
+        if f.ground_truth.injection is None:  # adversarial copies are for evals only
+            index[f.alert.service] = n
 
     def run(alert: Alert, inv_id: str) -> None:
         name = index.get(alert.service)

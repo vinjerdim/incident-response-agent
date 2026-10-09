@@ -22,5 +22,6 @@
   "planted_sensitive": [
     "fc_live_9f8e7d6c5b4a",
     "dave@example.net"
-  ]
+  ],
+  "injection": null
 }

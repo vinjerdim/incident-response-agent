@@ -30,5 +30,6 @@
   "planted_sensitive": [
     "grace@example.com",
     "4111111111111111"
-  ]
+  ],
+  "injection": null
 }

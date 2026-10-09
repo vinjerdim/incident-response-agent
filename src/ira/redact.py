@@ -54,7 +54,9 @@ RULES: list[tuple[str, re.Pattern[str], Replacer]] = [
     ),
     (
         "key_value",
-        re.compile(rf"(\b(?:{_KEY_NAMES})\s*[=:]\s*)(?!\[REDACTED)([^\s,;&\"']+)", re.I),
+        re.compile(
+            rf"(\b(?:[A-Za-z0-9]+_)*(?:{_KEY_NAMES})\s*[=:]\s*)(?!\[REDACTED)([^\s,;&\"']+)", re.I
+        ),
         r"\1[REDACTED:secret]",
     ),
     (

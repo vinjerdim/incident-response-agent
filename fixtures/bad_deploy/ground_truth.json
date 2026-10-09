@@ -29,5 +29,6 @@
     "jane.doe@example.com",
     "4111111111111111",
     "eyJhbGciOiJIUzI1NiJ9.ZmFrZQ.c2ln"
-  ]
+  ],
+  "injection": null
 }

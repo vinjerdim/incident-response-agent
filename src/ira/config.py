@@ -25,6 +25,9 @@ class Settings(BaseSettings):
     webhook_token: SecretStr | None = None
     pagerduty_signing_secret: SecretStr | None = None
     webhook_workers: int = Field(default=2, ge=1, le=32)
+    # List price of `model` (USD per million tokens), used for eval cost estimates.
+    price_input_per_mtok: float = Field(default=4.0, ge=0)
+    price_output_per_mtok: float = Field(default=20.0, ge=0)
     max_body_bytes: int = Field(default=262_144, ge=1_024)
 
 

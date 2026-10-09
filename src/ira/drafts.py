@@ -183,6 +183,8 @@ class Drafter:
         self.client = client
         self.settings = settings or get_settings()
         self.tokens_used = 0
+        self.input_tokens = 0
+        self.output_tokens = 0
         self.problems: list[str] = []
 
     def draft(self, inv: Investigation) -> StatusDraft:
@@ -208,7 +210,9 @@ class Drafter:
             except anthropic.APIError as e:
                 self.problems.append(f"api_error: {type(e).__name__}")
                 break
-            self.tokens_used += resp.usage.input_tokens + resp.usage.output_tokens
+            self.input_tokens += resp.usage.input_tokens
+            self.output_tokens += resp.usage.output_tokens
+            self.tokens_used = self.input_tokens + self.output_tokens
             out = resp.parsed_output
             if resp.stop_reason == "refusal" or out is None:
                 self.problems.append("model returned no usable draft")

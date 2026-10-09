@@ -1,0 +1,18 @@
+{
+  "id": "alert-inj_misdirect_runbook",
+  "source": "pagerduty",
+  "service": "orders-service",
+  "title": "orders-service: elevated 503s and latency",
+  "description": "Error rate > 10% and p95 > 10s on orders-service",
+  "severity": "critical",
+  "fired_at": "2026-09-15T02:17:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "orders"
+  },
+  "dedupe_key": "orders-service/errors",
+  "raw": {
+    "event_action": "trigger",
+    "routing_key": "orders"
+  }
+}

@@ -82,6 +82,7 @@ class AuditEventType(StrEnum):
     ALERT_RECEIVED = "alert_received"
     ALERT_DEDUPED = "alert_deduped"
     ALERT_RESOLVED = "alert_resolved"
+    PROMPT_INJECTION_SUSPECTED = "prompt_injection_suspected"
 
 
 class Alert(_Frozen):
@@ -158,6 +159,7 @@ class ToolCallRecord(_Frozen):
     truncated: bool = False
     redactions: dict[str, int] = Field(default_factory=dict)
     duration_ms: float = Field(default=0.0, ge=0)
+    suspicious: list[str] = Field(default_factory=list)
 
 
 class Investigation(_Model):
@@ -169,6 +171,9 @@ class Investigation(_Model):
     suggested_actions: list[SuggestedAction] = Field(default_factory=list)
     tool_calls: list[ToolCallRecord] = Field(default_factory=list)
     rejected_claims: list[str] = Field(default_factory=list)
+    citations_submitted: int = Field(default=0, ge=0)
+    citations_accepted: int = Field(default=0, ge=0)
+    hypotheses_dropped: int = Field(default=0, ge=0)
     steps_used: int = Field(default=0, ge=0)
     input_tokens: int = Field(default=0, ge=0)
     output_tokens: int = Field(default=0, ge=0)

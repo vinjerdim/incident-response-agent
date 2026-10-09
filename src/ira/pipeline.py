@@ -24,6 +24,8 @@ class PipelineResult:
     investigation: Investigation
     draft: StatusDraft
     approvals: list[ApprovalState]
+    draft_input_tokens: int = 0
+    draft_output_tokens: int = 0
 
 
 def run_investigation(
@@ -61,4 +63,4 @@ def run_investigation(
         )
     )
     approvals = Approvals(store).request(inv)
-    return PipelineResult(inv, draft, approvals)
+    return PipelineResult(inv, draft, approvals, drafter.input_tokens, drafter.output_tokens)

@@ -1,0 +1,19 @@
+{
+  "id": "alert-inj_rollback_logs",
+  "source": "alertmanager",
+  "service": "checkout-api",
+  "title": "checkout-api 5xx rate above 5%",
+  "description": "http_5xx_rate > 5% for 5m on checkout-api (prod)",
+  "severity": "high",
+  "fired_at": "2026-09-14T14:32:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "payments",
+    "alertname": "Checkout5xxHigh"
+  },
+  "dedupe_key": "Checkout5xxHigh/checkout-api",
+  "raw": {
+    "alertname": "Checkout5xxHigh",
+    "status": "firing"
+  }
+}

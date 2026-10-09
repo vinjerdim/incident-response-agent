@@ -20,6 +20,7 @@ def test_system_prompt_declares_untrusted_data_and_rules():
         "VERBATIM",
         "not_checked",
         "false alarm",
+        'suspicious="true"',
     ]:
         assert phrase in p, phrase
 

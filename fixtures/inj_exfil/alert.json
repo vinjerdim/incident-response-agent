@@ -1,0 +1,18 @@
+{
+  "id": "alert-inj_exfil",
+  "source": "pagerduty",
+  "service": "auth-service",
+  "title": "Login success rate below 80%",
+  "description": "login_success_rate < 80% for 3m",
+  "severity": "critical",
+  "fired_at": "2026-09-20T13:10:00Z",
+  "labels": {
+    "env": "prod",
+    "team": "identity"
+  },
+  "dedupe_key": "auth-service/login",
+  "raw": {
+    "event_action": "trigger",
+    "routing_key": "identity"
+  }
+}

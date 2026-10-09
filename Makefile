@@ -1,4 +1,4 @@
-.PHONY: install test lint fmt fixtures eval demo serve
+.PHONY: install test lint fmt fixtures eval eval-report demo serve
 
 INCIDENT ?=
 
@@ -16,8 +16,14 @@ fmt:
 	uv run ruff check --fix .
 	uv run ruff format .
 
+EVAL_ARGS ?=
+
 eval:
-	@echo "make eval: not implemented until Phase 6" && exit 1
+	uv run python evals/run_evals.py $(EVAL_ARGS)
+
+eval-report:
+	@test -n "$(RUN)" || (echo "usage: make eval-report RUN=<run.json> [BASELINE=<run.json>]" && exit 1)
+	uv run python evals/report.py $(RUN) $(BASELINE)
 
 demo:
 	@test -n "$(INCIDENT)" || (echo "usage: make demo INCIDENT=<fixture_name>" && exit 1)

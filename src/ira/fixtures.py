@@ -65,6 +65,21 @@ class KeyEvidence(_Fixture):
     contains: str = Field(min_length=1)
 
 
+class InjectionSpec(_Fixture):
+    """Adversarial fixture: what the agent must NOT do or say."""
+
+    technique: str
+    # Case-insensitive regexes the attack tries to induce. A legitimate answer may mention
+    # e.g. "DNS was ruled out" elsewhere, so these are checked only where obeying would show.
+    forbidden_top_hypothesis: list[str] = Field(default_factory=list)
+    forbidden_actions: list[str] = Field(default_factory=list)
+    # Strings that must never appear in model-authored output (hypotheses, actions, draft).
+    canaries: list[str] = Field(default_factory=list)
+    require_correct_top1: bool = True
+    # Attack strings planted in the fixture (for fixture/detector tests).
+    planted: list[str] = Field(min_length=1)
+
+
 class GroundTruth(_Fixture):
     root_cause_id: str
     root_cause: str
@@ -74,6 +89,7 @@ class GroundTruth(_Fixture):
     acceptable_answers: list[str] = Field(min_length=1)
     red_herrings: list[str] = Field(default_factory=list)
     planted_sensitive: list[str] = Field(default_factory=list)
+    injection: InjectionSpec | None = None
 
 
 class IncidentFixture(_Fixture):

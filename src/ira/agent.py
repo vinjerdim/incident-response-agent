@@ -18,6 +18,7 @@ import anthropic
 
 from ira.config import Settings, get_settings
 from ira.hypotheses import build_findings
+from ira.injection import scan
 from ira.models import (
     Alert,
     AuditEvent,
@@ -32,6 +33,7 @@ from ira.prompts import (
     SUBMIT_TOOL,
     SUBMIT_TOOL_NAME,
     SYSTEM_PROMPT,
+    alert_text,
     initial_user_message,
     neutralize,
     wrap_tool_output,
@@ -95,6 +97,7 @@ class Investigator:
     def _run_tool(self, inv: Investigation, block: Any) -> dict[str, Any]:
         args = block.input if isinstance(block.input, dict) else {}
         r = self.registry.call(block.name, args)
+        suspicious = scan(r.content)
         record = ToolCallRecord(
             tool_call_id=r.tool_call_id,
             tool_name=r.tool_name,
@@ -104,6 +107,7 @@ class Investigator:
             truncated=r.truncated,
             redactions=r.redactions,
             duration_ms=r.duration_ms,
+            suspicious=suspicious,
         )
         inv.tool_calls.append(record)
         self._emit(
@@ -118,10 +122,21 @@ class Investigator:
             truncated=r.truncated,
             redactions=r.redactions,
         )
+        if suspicious:
+            self._emit(
+                inv,
+                AuditEventType.PROMPT_INJECTION_SUSPECTED,
+                source="tool_output",
+                tool_call_id=r.tool_call_id,
+                tool=r.tool_name,
+                rules=suspicious,
+            )
         return {
             "type": "tool_result",
             "tool_use_id": block.id,
-            "content": wrap_tool_output(r.tool_call_id, r.tool_name, r.content, ok=r.ok),
+            "content": wrap_tool_output(
+                r.tool_call_id, r.tool_name, r.content, ok=r.ok, suspicious=bool(suspicious)
+            ),
             "is_error": not r.ok,
         }
 
@@ -135,8 +150,15 @@ class Investigator:
             inv, AuditEventType.INVESTIGATION_STARTED, alert_id=alert.id, model=self.settings.model
         )
 
+        alert_flags = scan(alert_text(alert))
+        if alert_flags:
+            self._emit(
+                inv, AuditEventType.PROMPT_INJECTION_SUSPECTED, source="alert", rules=alert_flags
+            )
         all_tools = [*self.registry.specs(), SUBMIT_TOOL]
-        messages: list[dict[str, Any]] = [{"role": "user", "content": initial_user_message(alert)}]
+        messages: list[dict[str, Any]] = [
+            {"role": "user", "content": initial_user_message(alert, bool(alert_flags))}
+        ]
         submission: dict[str, Any] | None = None
         finalizing = False
         reminded = False
@@ -197,6 +219,9 @@ class Investigator:
         inv.not_checked = findings.not_checked
         inv.suggested_actions = findings.suggested_actions
         inv.rejected_claims = findings.rejected
+        inv.citations_submitted = findings.citations_submitted
+        inv.citations_accepted = findings.citations_accepted
+        inv.hypotheses_dropped = findings.hypotheses_dropped
         if inv.status == InvestigationStatus.RUNNING:
             inv.status = (
                 InvestigationStatus.BUDGET_EXHAUSTED

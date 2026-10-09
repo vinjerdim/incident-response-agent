@@ -34,5 +34,6 @@
   "planted_sensitive": [
     "AKIAIOSFODNN7EXAMPLE",
     "bob.smith@example.org"
-  ]
+  ],
+  "injection": null
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "d-640",
+    "service": "payments-gateway",
+    "kind": "code",
+    "version": "v1.22.0",
+    "author": "dev-sofia",
+    "ts": "2026-09-08T00:03:00Z",
+    "summary": "Add idempotency keys to refunds",
+    "diff": "--- a/gw/refunds.py\n+++ b/gw/refunds.py\n+    headers['Idempotency-Key'] = key\n"
+  }
+]

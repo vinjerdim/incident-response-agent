@@ -63,6 +63,9 @@ class Findings:
     not_checked: list[str] = field(default_factory=list)
     suggested_actions: list[SuggestedAction] = field(default_factory=list)
     rejected: list[str] = field(default_factory=list)
+    citations_submitted: int = 0
+    citations_accepted: int = 0
+    hypotheses_dropped: int = 0
 
 
 def _norm(text: str) -> str:
@@ -99,6 +102,7 @@ def build_findings(
         label = h.title.strip() or f"hypothesis #{i + 1}"
         evidence: list[Evidence] = []
         for ev in h.evidence:
+            findings.citations_submitted += 1
             call = calls.get(ev.tool_call_id.strip())
             excerpt = _norm(ev.excerpt)
             if call is None:
@@ -112,6 +116,7 @@ def build_findings(
                     f"{label}: excerpt not found in {call.tool_call_id}: {excerpt[:80]!r}"
                 )
             else:
+                findings.citations_accepted += 1
                 evidence.append(
                     Evidence(
                         tool_call_id=call.tool_call_id,
@@ -121,9 +126,11 @@ def build_findings(
                 )
         if not h.title.strip() or not h.explanation.strip():
             findings.rejected.append(f"{label}: missing title or explanation")
+            findings.hypotheses_dropped += 1
             continue
         if not evidence:
             findings.rejected.append(f"{label}: dropped, no valid evidence")
+            findings.hypotheses_dropped += 1
             continue
         score = min(1.0, max(0.0, h.confidence_score))
         accepted.append((score, i, h, evidence))

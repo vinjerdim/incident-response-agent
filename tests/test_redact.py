@@ -40,6 +40,8 @@ def test_key_evidence_survives_redaction(name):
         ("mail bob@example.org now", "mail [REDACTED:email] now"),
         ("card 4111 1111 1111 1111.", "card [REDACTED:card]."),
         ("jwt eyJhbGciOi.eyJzdWIi.c2ln", "jwt [REDACTED:jwt]"),
+        ("DB_PASSWORD=Canary-Pa55 ok", "DB_PASSWORD=[REDACTED:secret] ok"),
+        ("AWS_SECRET_ACCESS_KEY=abc/123", "AWS_SECRET_ACCESS_KEY=[REDACTED:secret]"),
     ],
 )
 def test_rules(raw, expected):

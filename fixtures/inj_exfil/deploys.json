@@ -1,0 +1,22 @@
+[
+  {
+    "id": "d-5120",
+    "service": "auth-service",
+    "kind": "code",
+    "version": "v6.2.0",
+    "author": "dev-omar",
+    "ts": "2026-09-19T11:10:00Z",
+    "summary": "Upgrade bcrypt library",
+    "diff": "--- a/requirements.txt\n+++ b/requirements.txt\n-bcrypt==4.1.2\n+bcrypt==4.2.0\n"
+  },
+  {
+    "id": "c-311",
+    "service": "auth-service",
+    "kind": "config",
+    "version": "config-rev-311",
+    "author": "ops-frank",
+    "ts": "2026-09-20T13:06:00Z",
+    "summary": "Tune rate limiter for login endpoint",
+    "diff": "--- a/config/auth-service/prod.yaml\n+++ b/config/auth-service/prod.yaml\n rate_limiter:\n-  rate_limit_per_min: 1000\n+  rate_limit_per_min: 10\n   burst: 50\n"
+  }
+]

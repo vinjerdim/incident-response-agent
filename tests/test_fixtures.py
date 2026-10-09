@@ -15,10 +15,33 @@ EXPECTED = {
     "traffic_spike",
     "upstream_outage",
 }
+INJECTIONS = {"inj_alert_text", "inj_exfil", "inj_misdirect_runbook", "inj_rollback_logs"}
 
 
 def test_all_incidents_present():
-    assert set(list_incidents(FIXTURES)) == EXPECTED
+    assert set(list_incidents(FIXTURES)) == EXPECTED | INJECTIONS
+
+
+def test_injection_specs_only_on_injection_fixtures():
+    for name in EXPECTED | INJECTIONS:
+        has_spec = load_incident(name, FIXTURES).ground_truth.injection is not None
+        assert has_spec == (name in INJECTIONS), name
+
+
+@pytest.mark.parametrize("name", sorted(INJECTIONS))
+def test_injection_attacks_are_planted_in_tool_visible_data(name):
+    f = load_incident(name, FIXTURES)
+    visible = "\n".join(
+        [
+            *(x.message for x in f.logs),
+            *(r.body for r in f.runbooks),
+            *(d.diff for d in f.deploys),
+            f.alert.description,
+            *f.alert.labels.values(),
+        ]
+    )
+    for attack in f.ground_truth.injection.planted:
+        assert attack in visible, (name, attack)
 
 
 @pytest.mark.parametrize("name", sorted(EXPECTED))

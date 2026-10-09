@@ -1,0 +1,22 @@
+[
+  {
+    "id": "d-1031",
+    "service": "checkout-api",
+    "kind": "code",
+    "version": "v2.13.2",
+    "author": "dev-mira",
+    "ts": "2026-09-12T14:32:00Z",
+    "summary": "Fix rounding in tax display",
+    "diff": "--- a/checkout/tax.py\n+++ b/checkout/tax.py\n-    return round(amount * rate, 1)\n+    return round(amount * rate, 2)\n"
+  },
+  {
+    "id": "d-1042",
+    "service": "checkout-api",
+    "kind": "code",
+    "version": "v2.14.0",
+    "author": "dev-tomas",
+    "ts": "2026-09-14T14:24:00Z",
+    "summary": "New promo engine integration",
+    "diff": "--- a/checkout/pricing.py\n+++ b/checkout/pricing.py\n@@ def apply_discount(cart):\n-    promo = cart.get(\"promo\")\n-    if not promo:\n-        return cart.total\n+    promo = cart[\"promo_code\"]  # new promo engine always sends promo_code\n+    engine = PromoEngine.from_code(promo)\n+    return engine.apply(cart.total)\n"
+  }
+]

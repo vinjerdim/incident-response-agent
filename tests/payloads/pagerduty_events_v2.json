@@ -1,0 +1,15 @@
+{
+  "routing_key": "R0UT1NGK3Y000000000000000000000",
+  "event_action": "trigger",
+  "dedup_key": "auth-service/login",
+  "payload": {
+    "summary": "Login success rate below 80%",
+    "source": "prometheus-prod",
+    "severity": "critical",
+    "timestamp": "2026-09-20T13:10:00Z",
+    "component": "auth-service",
+    "group": "identity",
+    "class": "slo",
+    "custom_details": {"login_success_rate": "35%"}
+  }
+}

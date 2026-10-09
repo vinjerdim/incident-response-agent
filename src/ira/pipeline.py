@@ -34,11 +34,14 @@ def run_investigation(
     client: Any | None = None,
     settings: Settings | None = None,
     llm_drafts: bool = True,
+    investigation_id: str | None = None,
 ) -> PipelineResult:
     settings = settings or get_settings()
     client = client if client is not None else anthropic.Anthropic()
 
-    inv = Investigator(registry, client=client, settings=settings, on_event=store.append).run(alert)
+    inv = Investigator(registry, client=client, settings=settings, on_event=store.append).run(
+        alert, investigation_id
+    )
     store.save_investigation(inv)
 
     drafter = Drafter(client if llm_drafts else None, settings)

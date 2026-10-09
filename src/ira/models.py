@@ -79,6 +79,9 @@ class AuditEventType(StrEnum):
     REJECTED = "rejected"
     EXECUTED = "executed"
     INVESTIGATION_FINISHED = "investigation_finished"
+    ALERT_RECEIVED = "alert_received"
+    ALERT_DEDUPED = "alert_deduped"
+    ALERT_RESOLVED = "alert_resolved"
 
 
 class Alert(_Frozen):

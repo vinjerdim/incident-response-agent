@@ -127,8 +127,10 @@ class Investigator:
 
     # -- main loop ------------------------------------------------------------------------
 
-    def run(self, alert: Alert) -> Investigation:
+    def run(self, alert: Alert, investigation_id: str | None = None) -> Investigation:
         inv = Investigation(alert=alert, status=InvestigationStatus.RUNNING)
+        if investigation_id:
+            inv.id = investigation_id
         self._emit(
             inv, AuditEventType.INVESTIGATION_STARTED, alert_id=alert.id, model=self.settings.model
         )

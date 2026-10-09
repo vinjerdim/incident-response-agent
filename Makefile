@@ -1,4 +1,4 @@
-.PHONY: install test lint fmt fixtures eval demo
+.PHONY: install test lint fmt fixtures eval demo serve
 
 INCIDENT ?=
 
@@ -25,3 +25,6 @@ demo:
 
 fixtures:
 	uv run python scripts/build_fixtures.py
+
+serve:
+	uv run uvicorn --factory ira.api:create_app --port 8000

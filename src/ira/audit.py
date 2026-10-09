@@ -12,6 +12,7 @@ import hashlib
 import json
 import sqlite3
 import threading
+from dataclasses import dataclass
 from pathlib import Path
 
 from ira.models import AuditEvent, AuditEventType, Investigation, StatusDraft
@@ -41,6 +42,14 @@ CREATE TABLE IF NOT EXISTS investigations (
     created_at TEXT NOT NULL,
     json TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS alert_dedupe (
+    dedupe_key TEXT PRIMARY KEY,
+    investigation_id TEXT NOT NULL,
+    first_seen REAL NOT NULL,
+    last_seen REAL NOT NULL,
+    count INTEGER NOT NULL,
+    open INTEGER NOT NULL
+);
 CREATE TABLE IF NOT EXISTS drafts (
     id TEXT PRIMARY KEY,
     investigation_id TEXT NOT NULL,
@@ -56,6 +65,13 @@ def canonical(event: AuditEvent) -> str:
 
 def chain_hash(prev_hash: str, event_json: str) -> str:
     return hashlib.sha256((prev_hash + event_json).encode("utf-8")).hexdigest()
+
+
+@dataclass(frozen=True)
+class Claim:
+    is_new: bool
+    investigation_id: str
+    count: int
 
 
 class Store:
@@ -83,9 +99,17 @@ class Store:
                 self._db.execute(
                     "INSERT INTO audit_events (id, ts, actor, event_type, investigation_id, "
                     "event_json, prev_hash, hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-                    (event.id, event.ts.isoformat(), event.actor, event.event_type,
-                     event.investigation_id, event_json, prev, h),
-                )  # fmt: skip
+                    (
+                        event.id,
+                        event.ts.isoformat(),
+                        event.actor,
+                        event.event_type,
+                        event.investigation_id,
+                        event_json,
+                        prev,
+                        h,
+                    ),
+                )
                 self._db.execute("COMMIT")
             except BaseException:
                 self._db.execute("ROLLBACK")
@@ -124,6 +148,51 @@ class Store:
             expected_prev = h
         return problems
 
+    # -- alert dedupe ---------------------------------------------------------------------
+
+    def claim_alert(self, key: str, now: float, window_s: float, new_id: str) -> Claim:
+        """Atomically decide whether an alert starts a new investigation or is a repeat."""
+        with self._lock:
+            self._db.execute("BEGIN IMMEDIATE")
+            try:
+                row = self._db.execute(
+                    "SELECT investigation_id, first_seen, count, open FROM alert_dedupe "
+                    "WHERE dedupe_key = ?",
+                    (key,),
+                ).fetchone()
+                if row and row[3] and now - row[1] < window_s:
+                    self._db.execute(
+                        "UPDATE alert_dedupe SET last_seen = ?, count = count + 1 "
+                        "WHERE dedupe_key = ?",
+                        (now, key),
+                    )
+                    claim = Claim(False, row[0], row[2] + 1)
+                else:
+                    self._db.execute(
+                        "INSERT INTO alert_dedupe VALUES (?, ?, ?, ?, 1, 1) "
+                        "ON CONFLICT(dedupe_key) DO UPDATE SET investigation_id = excluded."
+                        "investigation_id, first_seen = excluded.first_seen, last_seen = "
+                        "excluded.last_seen, count = 1, open = 1",
+                        (key, new_id, now, now),
+                    )
+                    claim = Claim(True, new_id, 1)
+                self._db.execute("COMMIT")
+            except BaseException:
+                self._db.execute("ROLLBACK")
+                raise
+        return claim
+
+    def resolve_alert(self, key: str) -> str | None:
+        """Close an open dedupe entry. Returns its investigation id, or None if none open."""
+        with self._lock:
+            row = self._db.execute(
+                "SELECT investigation_id FROM alert_dedupe WHERE dedupe_key = ? AND open = 1",
+                (key,),
+            ).fetchone()
+            if row:
+                self._db.execute("UPDATE alert_dedupe SET open = 0 WHERE dedupe_key = ?", (key,))
+        return row[0] if row else None
+
     # -- investigations / drafts ----------------------------------------------------------
 
     def save_investigation(self, inv: Investigation) -> None:
@@ -152,9 +221,13 @@ class Store:
         with self._lock:
             self._db.execute(
                 "INSERT INTO drafts (id, investigation_id, created_at, json) VALUES (?, ?, ?, ?)",
-                (draft.id, draft.investigation_id, draft.created_at.isoformat(),
-                 draft.model_dump_json()),
-            )  # fmt: skip
+                (
+                    draft.id,
+                    draft.investigation_id,
+                    draft.created_at.isoformat(),
+                    draft.model_dump_json(),
+                ),
+            )
 
     def latest_draft(self, investigation_id: str) -> StatusDraft | None:
         with self._lock:

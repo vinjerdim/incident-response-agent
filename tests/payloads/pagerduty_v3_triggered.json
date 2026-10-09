@@ -1,0 +1,29 @@
+{
+  "event": {
+    "id": "01DEN8ZEJ6KYQW6M9RFMTGLGNW",
+    "event_type": "incident.triggered",
+    "resource_type": "incident",
+    "occurred_at": "2026-09-15T02:17:05.000Z",
+    "agent": {"type": "service_reference", "id": "PSVC123"},
+    "client": null,
+    "data": {
+      "id": "Q2AZ8Y1X4PB7KN",
+      "type": "incident",
+      "self": "https://api.pagerduty.com/incidents/Q2AZ8Y1X4PB7KN",
+      "html_url": "https://example.pagerduty.com/incidents/Q2AZ8Y1X4PB7KN",
+      "number": 4521,
+      "status": "triggered",
+      "incident_key": "orders-service/errors",
+      "created_at": "2026-09-15T02:17:00Z",
+      "title": "orders-service: elevated 503s and latency",
+      "service": {"id": "PSVC123", "type": "service_reference", "summary": "orders-service"},
+      "assignees": [],
+      "escalation_policy": {"id": "PEP1", "type": "escalation_policy_reference", "summary": "Orders"},
+      "teams": [],
+      "priority": {"id": "PPRIO1", "type": "priority", "summary": "P1"},
+      "urgency": "high",
+      "conference_bridge": null,
+      "resolve_reason": null
+    }
+  }
+}

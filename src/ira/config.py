@@ -4,7 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import Field
+from pydantic import Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -21,6 +21,11 @@ class Settings(BaseSettings):
     fixtures_dir: Path = Path("fixtures")
     db_path: Path = Path("ira.sqlite")
     use_fixtures: bool = True
+    dedupe_window_s: int = Field(default=1800, ge=0)
+    webhook_token: SecretStr | None = None
+    pagerduty_signing_secret: SecretStr | None = None
+    webhook_workers: int = Field(default=2, ge=1, le=32)
+    max_body_bytes: int = Field(default=262_144, ge=1_024)
 
 
 @lru_cache
